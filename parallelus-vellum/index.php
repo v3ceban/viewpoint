@@ -2,24 +2,26 @@
 
 get_header(); ?>
 
-	<div id="primary" class="site-content">
-		<div id="content" role="main">
-			<?php 
-			if ( have_posts() ) :
+<div id="primary" class="site-content">
+	<div id="content" role="main">
 
-				// The default query for this page
-				$args = $wp_query->query;
+		<p>I've been here</p>
+		<?php
+		if (have_posts()) :
 
-				// Get the blog template
-				get_theme_blog_template( $args );
+			// The default query for this page
+			$args = $wp_query->query;
 
-			else : 
-				get_template_part( 'content', 'none' ); 
-			endif; 
+			// Get the blog template
+			get_theme_blog_template($args);
 
-			?>
-		</div><!-- #content -->
-	</div><!-- #primary -->
+		else :
+			get_template_part('content', 'none');
+		endif;
+
+		?>
+	</div><!-- #content -->
+</div><!-- #primary -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
