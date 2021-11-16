@@ -9,8 +9,6 @@ get_header(); ?>
 <div id="primary" class="site-content">
 	<div id="content" role="main">
 
-		<p>I've been here</p>
-
 		<?php while (have_posts()) : the_post(); ?>
 
 			<?php get_template_part('templates/page'); ?>
