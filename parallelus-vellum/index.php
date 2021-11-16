@@ -6,6 +6,7 @@ get_header(); ?>
 	<div id="content" role="main">
 
 		<p>I've been here</p>
+
 		<?php
 		if (have_posts()) :
 
