@@ -6,7 +6,6 @@
 
 get_header(); ?>
 
-<p>123</p>
 <div id="primary" class="site-content">
 	<div id="content" role="main">
 
@@ -18,6 +17,7 @@ get_header(); ?>
 		<?php endwhile; // end of the loop. 
 		?>
 
+		<p>123</p>
 	</div><!-- #content -->
 </div><!-- #primary -->
 
