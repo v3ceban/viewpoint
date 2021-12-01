@@ -20,14 +20,10 @@ get_header(); ?>
 						<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium') ?></a>
 						<div class="cat-text-content">
 							<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+							<p><?php the_excerpt(); ?></p>
 						</div>
 					</div><?php /* end post class div */ ?>
 				<?php endwhile; ?>
-				<?php /* Navigation (shows if 10+ posts by default) */ ?>
-				<div class="navigation">
-					<div class="alignleft"><?php next_posts_link('&laquo; Older Posts') ?></div>
-					<div class="alignright"><?php previous_posts_link('Newer Posts &raquo;') ?></div>
-				</div>
 			<?php else : ?>
 				<h2>Not Found</h2>
 				<p>Sorry, but you are looking for something that isn't here.</p>
