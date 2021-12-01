@@ -7968,4 +7968,13 @@ aside.widget.static-block {
 
 .cat-container > div {
 	max-width: 40%;
+	background-color: #2a2a2a;
+}
+
+.cat-container > div h2 {
+	margin: 10px 0 0 10px;
+}
+
+.cat-container > div > img {
+	width: 100%;
 }
