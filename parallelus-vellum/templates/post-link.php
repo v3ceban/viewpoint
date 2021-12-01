@@ -7,7 +7,7 @@
 
 <a href="<?php echo esc_url(get_post_meta($post->ID, 'postformat_link_url', true)); ?>" title="<?php echo esc_attr(get_the_title()); ?>" target="_blank">
 	<header class="post-header">
-		<div class="post-symbol"><i class="fa fa-link"></i></div><span class="post-format-label"><?php the_category(', ') ?></span>
+		<div class="post-symbol"><i class="fa fa-link"></i></div><span class="post-format-label">1213</span>
 		<h1 class="entry-title">
 			<?php echo get_the_title(); ?>
 		</h1>
