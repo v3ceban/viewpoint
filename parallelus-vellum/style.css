@@ -7946,3 +7946,8 @@ aside.widget.static-block {
 	background: #2a2a2a;
 	color: #ddd;
 }
+
+.post-meta ::before a:link,
+.post-meta ::before a:visited {
+	color: #ddd;
+}
