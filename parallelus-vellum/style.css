@@ -7971,6 +7971,10 @@ aside.widget.static-block {
 	background-color: #2a2a2a;
 }
 
+.cat-container > :nth-child(odd) {
+	margin-right: 30px;
+}
+
 .cat-container div h2 {
 	margin-bottom: 10px;
 	margin-top: 0px;
