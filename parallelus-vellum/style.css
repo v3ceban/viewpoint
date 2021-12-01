@@ -7937,5 +7937,5 @@ aside.widget.static-block {
 }
 
 .vc_grid-item-mini p {
-	color: red !important;
+	max-width: 50ch;
 }
