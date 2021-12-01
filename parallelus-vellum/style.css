@@ -7938,7 +7938,6 @@ aside.widget.static-block {
 
 .vc_grid-item-mini p {
 	overflow: hidden;
-	white-space: nowrap;
 	text-overflow: ellipsis;
-	max-width: 250px;
+	max-height: 120px;
 }
