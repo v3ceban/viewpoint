@@ -7981,6 +7981,6 @@ aside.widget.static-block {
 }
 
 .cat-container .cat-text-content {
-	padding: 20px;
+	padding: 20px 10px 20px 10px;
 	max-width: fit-content;
 }
