@@ -21,12 +21,6 @@ get_header(); ?>
 					<p><?php the_time('F jS, Y') ?>
 						<?php /* by <?php the_author() ?> */ ?>
 					</p>
-					<div class="entry">
-						<?php the_content('Read More...'); ?>
-					</div>
-					<p class="postmetadata">
-						<?php the_tags('Tags: ', ', ', '<br />'); ?> Posted in <?php the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?> <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?>
-					</p>
 				</div><?php /* end post class div */ ?>
 			<?php endwhile; ?>
 			<?php /* Navigation (shows if 10+ posts by default) */ ?>
