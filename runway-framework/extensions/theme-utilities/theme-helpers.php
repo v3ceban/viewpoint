@@ -661,7 +661,9 @@ if (!function_exists('theme_comment')) :
 					echo '<div class="post-meta single-post-format clearfix">' . theme_post_format_meta() . '</div>';
 				}
 				// single, get as just text
+				echo '<div class="postHeader">';
 				echo '<' . $tag . ' class="page-title">' . $title . '</' . $tag . '>';
+				echo '</div>';
 			else :
 				// list (blog) get as link
 				echo '<' . $tag . ' class="entry-title">';
