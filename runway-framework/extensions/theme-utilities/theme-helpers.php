@@ -162,23 +162,6 @@ if (!function_exists('theme_post_meta')) :
 			$date = (get_options_data('blog-options', 'show-date') == 'true') ? $date : '';
 		}
 
-		// Categories
-		if (get_post_type() == 'portfolio') {
-			// Portfolio categories
-			$categories_list = get_the_term_list($post->ID, 'portfolio-category', '', __(', ', 'framework'));
-		} else {
-			// Blog categories
-			$categories_list = get_the_category_list(__(', ', 'framework'));
-		}
-		if ($categories_list) {
-			$categories = '<span class="categories-meta"><span class="meta-label">' . __('Category', 'framework') . ' </span>' . $categories_list . $sep . '</span>';
-		}
-		if (is_single()) {
-			$categories = (get_options_data('blog-options', 'single-show-categories') == 'true') ? $categories : '';
-		} else {
-			$categories = (get_options_data('blog-options', 'show-categories') == 'true') ? $categories : '';
-		}
-
 		// Comments
 		$comments_link = '';
 		if (comments_open()) {
@@ -653,6 +636,23 @@ if (!function_exists('theme_comment')) :
 			if ($hideTitle && is_single()) {
 				if ($post->ID == $post_id_has_vc_posts_list || !$has_vc_posts_list)
 					return false;
+			}
+
+			// Categories
+			if (get_post_type() == 'portfolio') {
+				// Portfolio categories
+				$categories_list = get_the_term_list($post->ID, 'portfolio-category', '', __(', ', 'framework'));
+			} else {
+				// Blog categories
+				$categories_list = get_the_category_list(__(', ', 'framework'));
+			}
+			if ($categories_list) {
+				$categories = '<span class="categories-meta"><span class="meta-label">' . __('Category', 'framework') . ' </span>' . $categories_list . $sep . '</span>';
+			}
+			if (is_single()) {
+				$categories = (get_options_data('blog-options', 'single-show-categories') == 'true') ? $categories : '';
+			} else {
+				$categories = (get_options_data('blog-options', 'show-categories') == 'true') ? $categories : '';
 			}
 
 			if (is_single() && !$fromShortcode) :
