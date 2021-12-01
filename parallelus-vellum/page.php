@@ -17,7 +17,6 @@ get_header(); ?>
 		<?php endwhile; // end of the loop. 
 		?>
 
-		<p>123</p>
 	</div><!-- #content -->
 </div><!-- #primary -->
 

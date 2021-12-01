@@ -7935,3 +7935,7 @@ aside.widget.static-block {
 	padding-left: 17.5px;
 	padding-right: 17.5px;
 }
+
+.vc_gitem-col-align p {
+	color: red !important;
+}
