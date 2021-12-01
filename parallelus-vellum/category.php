@@ -17,7 +17,7 @@ get_header(); ?>
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 						<?php /* Featured image displays here (full, large, medium_large, medium, or thumbnail) */ ?>
-						<?php the_post_thumbnail('medium') ?>
+						<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium') ?></a>
 						<div class="cat-text-content">
 							<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 						</div>
