@@ -10,7 +10,6 @@ get_header(); ?>
 
 		<header class="archive-header">
 			<h1 class="archive-title"><?php echo single_cat_title('', false); ?></h1>
-			<h2>123`</h2>
 		</header><!-- .archive-header -->
 
 		<?php
@@ -21,6 +20,7 @@ get_header(); ?>
 			$args = $wp_query->query;
 
 			// Get the blog template
+			the_post_thumbnail('medium');
 			get_theme_blog_template($args);
 
 		endif;
