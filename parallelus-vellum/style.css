@@ -7975,6 +7975,6 @@ aside.widget.static-block {
 	margin: 10px 0 0 10px;
 }
 
-.cat-container > div > img {
-	width: 100%;
+.cat-container .cat-text-content {
+	padding: 20px;
 }
