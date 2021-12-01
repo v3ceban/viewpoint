@@ -7947,7 +7947,6 @@ aside.widget.static-block {
 	color: #ddd;
 }
 
-.post-meta :before a:link,
-.post-meta :before a:visited {
+.post-meta :before a {
 	color: #ddd;
 }
