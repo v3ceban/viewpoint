@@ -7947,6 +7947,8 @@ aside.widget.static-block {
 	color: #ddd;
 }
 
-.post-meta :before a {
-	color: #ddd;
+.header-meta .post-meta .categories-meta a:link,
+.header-meta .post-meta .categories-meta a:visited {
+	text-decoration: none;
+	font-size: 1em;
 }
