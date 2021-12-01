@@ -6,6 +6,7 @@
 
 get_header(); ?>
 
+<p>123</p>
 <div id="primary" class="site-content">
 	<div id="content" role="main">
 
