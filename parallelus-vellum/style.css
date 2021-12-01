@@ -7967,14 +7967,14 @@ aside.widget.static-block {
 }
 
 .cat-container > div {
-	max-width: 40%;
+	max-width: 40vw;
 	background-color: #2a2a2a;
 }
 
 .cat-container div h2 {
 	margin-bottom: 10px;
 	margin-top: 0px;
-	max-width: 40%;
+	max-width: 40vw;
 }
 
 .cat-container .cat-text-content {
