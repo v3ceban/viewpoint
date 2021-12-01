@@ -7980,6 +7980,12 @@ aside.widget.static-block {
 	margin-top: 0px;
 }
 
+.cat-container div h2 a:link,
+.cat-container div h2 a:visited {
+	color: #dddddd;
+	font-size: 0.9em;
+}
+
 .cat-container .cat-text-content {
 	padding: 10px 20px 10px 20px;
 	max-width: fit-content;
