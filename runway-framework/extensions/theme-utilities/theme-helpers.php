@@ -124,7 +124,7 @@ if (!function_exists('theme_post_format_meta')) :
 			default:
 				$post_format = ($font == 'entypo') ? '<span class="entypo entypo-doc-text"></span>' : '<i class="fa fa-file-text-o"></i>';
 				$custom_post_format_name = get_options_data('blog-options', 'general_format_text');
-				$post_format_label = the_category(', ');
+				$post_format_label = the_category(', ', 'single');
 		}
 
 		return '<div class="post-symbol">' . $post_format . '</div><span class="post-format-label">' . $post_format_label . $sep . '</span>';
