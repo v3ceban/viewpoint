@@ -162,15 +162,6 @@ if (!function_exists('theme_post_meta')) :
 			$date = (get_options_data('blog-options', 'show-date') == 'true') ? $date : '';
 		}
 
-		// Author
-		$by = (isset($portfolio)) ? __('By', 'framework') : __('Posted by', 'framework');
-		$author = sprintf(
-			'<span class="author vcard author-meta"><span class="meta-label">' . $by . ' </span> &nbsp;<a class="url fn n" href="%1$s" title="%2$s" rel="author">%3$s</a>' . $sep . '</span>',
-			esc_url(get_author_posts_url(get_the_author_meta('ID'))),
-			esc_attr(sprintf(__('View all posts by %s', 'framework'), get_the_author())),
-			get_the_author()
-		);
-
 		// Categories
 		if (get_post_type() == 'portfolio') {
 			// Portfolio categories
