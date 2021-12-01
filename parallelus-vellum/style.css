@@ -7968,7 +7968,7 @@ aside.widget.static-block {
 
 .cat-container > div {
 	max-width: 40vw;
-	background-color: #2a2a2a;
+	background-color: #fff;
 }
 
 .cat-container > :nth-child(odd) {
