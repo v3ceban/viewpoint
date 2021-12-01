@@ -16,7 +16,6 @@
 	<link rel="shortcut icon" href="<?php options_data('options-page', 'favorites-icon'); ?>">
 	<link rel="apple-touch-icon-precomposed" href="<?php options_data('options-page', 'mobile-bookmark'); ?>">
 	<?php wp_head(); ?>
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/custom-styles.css">
 </head>
 
 <body <?php body_class(); ?>>
@@ -338,3 +337,5 @@
 					do_action('output_layout', 'start');
 
 					?>
+
+					<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/custom-styles.css">
