@@ -7952,3 +7952,7 @@ aside.widget.static-block {
 	text-decoration: none;
 	font-size: 1.25em;
 }
+
+.homePageMainSlider .vc_carousel-indicators li {
+	margin-right: 10px;
+}
