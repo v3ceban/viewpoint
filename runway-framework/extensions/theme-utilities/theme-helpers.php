@@ -201,7 +201,10 @@ if (!function_exists('theme_post_meta')) :
 		}
 
 		// Output the items above
+		echo '<div class="postHeader">';
+		echo '<' . $tag . ' class="page-title">' . $title . '</' . $tag . '>';
 		echo '<div class="post-meta clearfix">' . $post_format . $author . $date . $categories . $comments_link . '</div>';
+		echo '</div>';
 	}
 endif;
 
@@ -661,9 +664,7 @@ if (!function_exists('theme_comment')) :
 					echo '<div class="post-meta single-post-format clearfix">' . theme_post_format_meta() . '</div>';
 				}
 				// single, get as just text
-				echo '<div class="postHeader">';
 				echo '<' . $tag . ' class="page-title">' . $title . '</' . $tag . '>';
-				echo '</div>';
 			else :
 				// list (blog) get as link
 				echo '<' . $tag . ' class="entry-title">';
