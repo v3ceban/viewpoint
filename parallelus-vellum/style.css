@@ -7941,3 +7941,8 @@ aside.widget.static-block {
 	text-overflow: ellipsis;
 	max-height: 120px;
 }
+
+.vc_gitem_row {
+	background: #999;
+	color: white;
+}
