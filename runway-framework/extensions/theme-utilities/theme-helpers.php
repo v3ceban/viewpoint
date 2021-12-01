@@ -127,7 +127,7 @@ if (!function_exists('theme_post_format_meta')) :
 				$post_format_label = (!empty($custom_post_format_name)) ? __($custom_post_format_name, 'framework') : __('General', 'framework');
 		}
 
-		return '<div class="post-symbol">' . $post_format . '</div><span class="post-format-label">' . 123 . '</span>';
+		return '<div class="post-symbol">' . $post_format . '</div><span class="post-format-label">' the_category(', ') '</span>';
 	}
 endif;
 
