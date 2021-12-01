@@ -127,7 +127,7 @@ if (!function_exists('theme_post_format_meta')) :
 				$post_format_label = (!empty($custom_post_format_name)) ? __($custom_post_format_name, 'framework') : __('General', 'framework');
 		}
 
-		return '<div class="post-symbol">' . $post_format . '</div><span class="post-format-label">' <?php the_category(', ') ?> '</span>';
+		return '<div class="post-symbol">' . $post_format . '</div><span class="post-format-label">' . $post_format_label . $sep . '</span>';
 	}
 endif;
 
