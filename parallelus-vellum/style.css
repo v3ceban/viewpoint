@@ -7957,3 +7957,7 @@ aside.widget.static-block {
 	display: inline-block !important;
 	margin-right: 10px !important;
 }
+
+.homePageMainSlider .vc_carousel-indicators li:last-of-type {
+	margin-right: 0px !important;
+}
