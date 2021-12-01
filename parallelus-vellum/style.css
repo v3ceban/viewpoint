@@ -7961,3 +7961,11 @@ aside.widget.static-block {
 .homePageMainSlider .vc_carousel-indicators li:last-of-type {
 	margin-right: 0px !important;
 }
+
+.cat-container {
+	display: flex;
+}
+
+.cat-container > div {
+	max-width: 40%;
+}
