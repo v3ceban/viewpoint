@@ -7936,4 +7936,6 @@ aside.widget.static-block {
 	padding-right: 17.5px;
 }
 
-@import "./assets/css/main.min.css";
+.vc_grid-item-mini p {
+	color: red !important;
+}
