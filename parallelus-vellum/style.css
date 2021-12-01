@@ -7954,5 +7954,6 @@ aside.widget.static-block {
 }
 
 .homePageMainSlider .vc_carousel-indicators li {
+	display: inline-block;
 	margin-right: 10px;
 }
