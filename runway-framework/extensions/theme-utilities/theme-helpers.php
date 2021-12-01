@@ -201,10 +201,7 @@ if (!function_exists('theme_post_meta')) :
 		}
 
 		// Output the items above
-		echo '<div class="postHeader">';
-		echo '<' . $tag . ' class="page-title">' . $title . '</' . $tag . '>';
 		echo '<div class="post-meta clearfix">' . $post_format . $author . $date . $categories . $comments_link . '</div>';
-		echo '</div>';
 	}
 endif;
 
