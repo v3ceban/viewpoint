@@ -7974,9 +7974,9 @@ aside.widget.static-block {
 .cat-container div h2 {
 	margin-bottom: 10px;
 	margin-top: 0px;
-	max-width: 40vw;
 }
 
 .cat-container .cat-text-content {
 	padding: 20px;
+	max-width: fit-content;
 }
