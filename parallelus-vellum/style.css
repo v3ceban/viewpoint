@@ -7943,6 +7943,10 @@ aside.widget.static-block {
 }
 
 .vc_gitem_row {
-	background: #2A2A2A;
-	color: #DDD;
+	background: #2a2a2a;
+	color: #ddd;
+}
+
+header.post-header .featured-image .styled-image {
+	display: none;
 }
