@@ -33,7 +33,7 @@
 						<?php endif; ?>
 					</section>
 				</footer><!-- #Bottom -->
-				<div class="bottom-line">
+				<div id="bottom-line">
 					<p>&copy; <?php echo date('Y'); ?> Viewpoint Photographic Art Center, Inc. &#x2022; All rights reserved.</p>
 				</div>
 

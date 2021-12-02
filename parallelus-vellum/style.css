@@ -8014,7 +8014,7 @@ h1.archive-title {
 }
 
 footer#Bottom.site {
-	padding: 0px 10%;
+	padding: 20px 10%;
 	margin: 50px 0 0 0;
 	background: #2a2a2a;
 	color: white;
@@ -8027,6 +8027,6 @@ footer#Bottom.site {
 	}
 }
 
-footer#Bottom.site .bottom-line {
+#bottom-line {
 	background: #151515;
 }
