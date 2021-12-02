@@ -8046,7 +8046,8 @@ section.footer-widget-area p {
 
 @media screen and (min-width: 770px) {
 	footer#Bottom.site {
-		display: flex;
+		display: grid;
+		padding: 20px 5%;
 	}
 }
 
