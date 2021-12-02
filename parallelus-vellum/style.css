@@ -8063,9 +8063,21 @@ section.footer-widget-area p {
 		display: grid;
 		padding: 20px 5%;
 		grid-template-areas:
-			"block block block"
-			"full width"
-			"full width";
+			"block1 block2 block3"
+			"full width1"
+			"full width2";
+	}
+
+	section.footer-widget-area:nth-of-type(1) {
+		grid-area: block1;
+	}
+
+	section.footer-widget-area:nth-of-type(2) {
+		grid-area: block2;
+	}
+
+	section.footer-widget-area:nth-of-type(3) {
+		grid-area: block3;
 	}
 }
 
