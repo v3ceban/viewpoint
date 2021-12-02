@@ -7936,13 +7936,6 @@ aside.widget.static-block {
 	padding-right: 17.5px;
 }
 
-#MainNav a.ubermenu-responsive-toggle:link,
-#MainNav a.ubermenu-responsive-toggle:visited,
-#MainNav a.ubermenu-responsive-toggle:hover,
-#MainNav a.ubermenu-responsive-toggle:active {
-	color: #151515 !important;
-}
-
 .vc_grid-item-mini p {
 	overflow: hidden;
 	text-overflow: ellipsis;
