@@ -8043,7 +8043,7 @@ section.footer-widget-area ul {
 }
 
 section.footer-widget-area ul li a {
-	color: inherit;
+	color: inherit !important;
 	text-decoration: none;
 }
 
