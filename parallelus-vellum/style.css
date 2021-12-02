@@ -8065,6 +8065,11 @@ section.footer-widget-area p {
 		grid-template-rows: auto auto auto;
 	}
 
+	footer#Bottom.site h2,
+	footer#Bottom.site h3 {
+		padding-right: 0;
+	}
+
 	section.footer-widget-area:nth-of-type(1) {
 		grid-row: 1/2;
 		grid-column: 1/2;
