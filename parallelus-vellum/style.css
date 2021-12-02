@@ -8021,9 +8021,13 @@ footer#Bottom.site {
 	width: 100%;
 }
 
-section.footer-widget-area div.widget-container {
-	width: 100%;
-	margin: auto;
+section.footer-widget-area ul {
+	margin: 0;
+	list-style: none;
+}
+
+section.footer-widget-area ul a {
+	color: inherit;
 }
 
 @media screen and (min-width: 770px) {
