@@ -8064,8 +8064,8 @@ section.footer-widget-area p {
 		padding: 20px 5%;
 		grid-template-areas:
 			"block1 block2 block3"
-			"full width1"
-			"full width2";
+			"fullwidth1"
+			"fullwidth2";
 	}
 
 	section.footer-widget-area:nth-of-type(1) {
@@ -8078,6 +8078,14 @@ section.footer-widget-area p {
 
 	section.footer-widget-area:nth-of-type(3) {
 		grid-area: block3;
+	}
+
+	#SMAC {
+		grid-area: fullwidth1;
+	}
+
+	section.footer-widget-area:nth-of-type(4) {
+		grid-area: fullwidth2;
 	}
 }
 
