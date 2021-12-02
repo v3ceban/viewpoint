@@ -8021,6 +8021,11 @@ footer#Bottom.site {
 	width: 100%;
 }
 
+footer#Bottom.site h2,
+footer#Bottom.site h3 {
+	color: white;
+}
+
 section.footer-widget-area ul {
 	margin: 0;
 	list-style: none;
@@ -8033,6 +8038,10 @@ section.footer-widget-area ul li a {
 
 section.footer-widget-area ul li {
 	margin: 0px 0px 5px 0px;
+}
+
+section.footer-widget-area p {
+	margin-bottom: 5px;
 }
 
 @media screen and (min-width: 770px) {
