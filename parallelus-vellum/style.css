@@ -8042,7 +8042,7 @@ section.footer-widget-area ul {
 	list-style: none;
 }
 
-section.footer-widget-area ul li a {
+section.footer-widget-area a {
 	color: inherit !important;
 	text-decoration: none;
 }
