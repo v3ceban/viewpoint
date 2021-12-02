@@ -8121,7 +8121,7 @@ section.footer-widget-area p {
 
 	#SMAC {
 		grid-row: 2/3;
-		grid-column: 1/5;
+		grid-column: 1/4;
 	}
 
 	section.footer-widget-area:nth-of-type(4) {
