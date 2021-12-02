@@ -8,30 +8,35 @@
 				</div><!-- #Middle -->
 
 				<footer id="Bottom" class="site">
-					<?php /* If widgets are being used, display them */ ?>
-					<?php if (!dynamic_sidebar('first-footer-area')) : ?>
-						<?php /* Footer content if widgets are not being used */ ?>
-						<h2>The footer should go here!</h2>
-						<p>Yes, right here!</p>
-					<?php endif; ?>
-					<?php /* If widgets are being used, display them */ ?>
-					<?php if (!dynamic_sidebar('second-footer-area')) : ?>
-						<?php /* Footer content if widgets are not being used */ ?>
-						<h2>The footer should go here!</h2>
-						<p>Yes, right here!</p>
-					<?php endif; ?>
-					<?php /* If widgets are being used, display them */ ?>
-					<?php if (!dynamic_sidebar('third-footer-area')) : ?>
-						<?php /* Footer content if widgets are not being used */ ?>
-						<h2>The footer should go here!</h2>
-						<p>Yes, right here!</p>
-					<?php endif; ?>
-					<?php /* If widgets are being used, display them */ ?>
-					<?php if (!dynamic_sidebar('fourth-footer-area')) : ?>
-						<?php /* Footer content if widgets are not being used */ ?>
-						<h2>The footer should go here!</h2>
-						<p>Yes, right here!</p>
-					<?php endif; ?>
+					<div class="main-footer-content">
+						<section class="footer-widget-area">
+							<?php if (!dynamic_sidebar('first-footer-area')) : ?>
+								<?php /* Footer content if widgets are not being used */ ?>
+								<h3>Add an empty widget in this widget area to hide this</h3>
+							<?php endif; ?>
+						</section>
+						<section class="footer-widget-area">
+							<?php if (!dynamic_sidebar('second-footer-area')) : ?>
+								<?php /* Footer content if widgets are not being used */ ?>
+								<h3>Add an empty widget in this widget area to hide this</h3>
+							<?php endif; ?>
+						</section>
+						<section class="footer-widget-area">
+							<?php if (!dynamic_sidebar('third-footer-area')) : ?>
+								<?php /* Footer content if widgets are not being used */ ?>
+								<h3>Add an empty widget in this widget area to hide this</h3>
+							<?php endif; ?>
+						</section>
+						<section class="footer-widget-area">
+							<?php if (!dynamic_sidebar('fourth-footer-area')) : ?>
+								<?php /* Footer content if widgets are not being used */ ?>
+								<h3>Add an empty widget in this widget area to hide this</h3>
+							<?php endif; ?>
+						</section>
+					</div>
+					<div class="bottom-line">
+						<p>&copy; <?php echo date('Y'); ?> Viewpoint Photographic Art Center, Inc. &#x2022; All rights reserved.</p>
+					</div>
 				</footer><!-- #Bottom -->
 
 				</div> <!-- #ContentWrapper -->
