@@ -8012,3 +8012,9 @@ h1.archive-title {
 .cat-container .cat-footer a:visited {
 	color: #9a9a97;
 }
+
+footer#bottom {
+	padding: 0px 20px;
+	background: #363636;
+	color: white;
+}
