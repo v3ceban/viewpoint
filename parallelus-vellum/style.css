@@ -8021,6 +8021,12 @@ footer#Bottom.site {
 	width: 100%;
 }
 
+@media screen and (min-width: 770px) {
+	footer#Bottom.site {
+		display: flex;
+	}
+}
+
 footer#Bottom.site .bottom-line {
 	background: #151515;
 }
