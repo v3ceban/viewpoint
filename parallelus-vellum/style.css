@@ -8101,6 +8101,7 @@ section.footer-widget-area p {
 	footer#Bottom.site {
 		grid-template-columns: auto auto auto auto;
 		grid-template-rows: auto auto;
+		row-gap: 20px;
 	}
 
 	section.footer-widget-area:nth-of-type(1) {
