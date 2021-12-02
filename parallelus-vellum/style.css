@@ -7936,7 +7936,10 @@ aside.widget.static-block {
 	padding-right: 17.5px;
 }
 
-a.ubermenu-responsive-toggle {
+a.ubermenu-responsive-toggle:link,
+a.ubermenu-responsive-toggle:visited,
+a.ubermenu-responsive-toggle:hover,
+a.ubermenu-responsive-toggle:active {
 	color: #151515;
 }
 
