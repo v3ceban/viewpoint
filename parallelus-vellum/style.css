@@ -8021,6 +8021,11 @@ footer#Bottom.site {
 	width: 100%;
 }
 
+section.footer-widget-area div.widget-container {
+	width: 100%;
+	margin: auto;
+}
+
 @media screen and (min-width: 770px) {
 	footer#Bottom.site {
 		display: flex;
