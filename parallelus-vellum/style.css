@@ -8066,7 +8066,8 @@ section.footer-widget-area p {
 	}
 
 	footer#Bottom.site h2,
-	footer#Bottom.site h3 {
+	footer#Bottom.site h3,
+	footer#Bottom.site section {
 		padding-right: 0;
 	}
 
