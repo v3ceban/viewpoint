@@ -8068,7 +8068,8 @@ section.footer-widget-area p {
 }
 
 #SMAC {
-	margin: 20px;
+	margin: 20px 0;
+	padding-right: 20px;
 	width: 100%;
 }
 
