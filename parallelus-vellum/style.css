@@ -7940,7 +7940,7 @@ a.ubermenu-responsive-toggle:link,
 a.ubermenu-responsive-toggle:visited,
 a.ubermenu-responsive-toggle:hover,
 a.ubermenu-responsive-toggle:active {
-	color: #151515;
+	color: #151515 !important;
 }
 
 .vc_grid-item-mini p {
