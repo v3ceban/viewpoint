@@ -7936,6 +7936,10 @@ aside.widget.static-block {
 	padding-right: 17.5px;
 }
 
+.vc_pageable-slide-wrapper {
+	display: flex !important;
+}
+
 .vc_grid-item-mini p {
 	overflow: hidden;
 	text-overflow: ellipsis;
