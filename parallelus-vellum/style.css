@@ -8015,6 +8015,11 @@ h1.archive-title {
 
 footer#Bottom.site {
 	padding: 0px 50px;
-	background: #252525;
+	margin: 0;
+	background: #2a2a2a;
 	color: white;
+}
+
+footer#Bottom.site .bottom-line {
+	background: #252525;
 }
