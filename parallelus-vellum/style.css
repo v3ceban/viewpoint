@@ -8053,3 +8053,9 @@ section.footer-widget-area p {
 #bottom-line {
 	background: #151515;
 }
+
+#bottom-line p {
+	margin: 0;
+	text-align: center;
+	color: white;
+}
