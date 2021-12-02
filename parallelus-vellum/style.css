@@ -8091,6 +8091,12 @@ section.footer-widget-area p {
 	}
 }
 
+@media screen and (min-width: 770px) {
+	footer#Bottom.site {
+		padding: 20% 10%;
+	}
+}
+
 #SMAC {
 	margin: 20px 0;
 	padding-right: 20px;
