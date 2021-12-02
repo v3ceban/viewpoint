@@ -7984,6 +7984,7 @@ aside.widget.static-block {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	max-height: 120px;
+	margin: 0;
 }
 
 .cat-container div h2 a:link,
@@ -7993,6 +7994,11 @@ aside.widget.static-block {
 }
 
 .cat-container .cat-text-content {
-	padding: 10px 20px 10px 20px;
+	padding: 10px 20px 0px 20px;
 	max-width: fit-content;
+}
+
+.cat-container .cat-footer {
+	padding: 10px;
+	background: #ddd;
 }
