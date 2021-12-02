@@ -8,61 +8,12 @@
 				</div><!-- #Middle -->
 
 				<footer id="Bottom" class="site">
-					<p>footer here</p>
-					<?php
-					// Footer layout information
-					//................................................................
-					$footer_data = get_layout_options('footer');
-					$footer = (isset($footer_data)) ? $footer_data : false;
-
-					// Footer Top Content
-					//................................................................
-					$footer_type = (isset($footer['footer-top-content'])) ? get_footer_content($footer['footer-top-content']) : false;
-
-					if (!empty($footer_type)) {
-					?>
-						<div id="FooterTop" class="clearfix">
-							<?php
-							// Footer Top Content
-							if ($footer_type != 'default') { ?>
-								<div class="footer-content-top type_<?php echo $footer_type ?>">
-									<?php show_footer_content($footer['footer-top-content'], $footer_type); ?>
-								</div>
-							<?php
-							} else {
-								// Theme Default Footer Top 
-								echo '<div class="inner-wrapper"><div class="widget-area">';
-								if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-footer-top')) : endif;
-								echo '</div> <!-- / .widget-area --> </div>';
-							} ?>
-						</div><!-- #FooterTop -->
-					<?php
-					} // End Footer Top Content
-
-					// Footer Bottom Content
-					//................................................................
-					$footer_type = (isset($footer['footer-bottom-content'])) ? get_footer_content($footer['footer-bottom-content']) : false;
-
-					if (!empty($footer_type)) {
-					?>
-						<div id="FooterBottom" class="clearfix">
-							<?php
-							// Footer Bottom Content
-							if ($footer_type != 'default') { ?>
-								<div class="footer-content-bottom type_<?php echo $footer_type ?>">
-									<?php show_footer_content($footer['footer-bottom-content'], $footer_type); ?>
-								</div>
-							<?php
-							} else {
-								// Theme Default Footer Bottom 
-								echo '<div class="inner-wrapper"><div class="widget-area">';
-								if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-footer-bottom')) : endif;
-								echo '</div> <!-- / .widget-area --> </div>';
-							} ?>
-						</div><!-- #FooterBottom -->
-					<?php
-					} // End Footer Bottom Content
-					?>
+					<?php /* If widgets are being used, display them */ ?>
+					<?php if (!dynamic_sidebar('primary-widget-area')) : ?>
+						<?php /* Aside content if widgets are not being used */ ?>
+						<h2>Header</h2>
+						<p>Paragraph</p>
+					<?php endif; ?>
 				</footer><!-- #Bottom -->
 
 				</div> <!-- #ContentWrapper -->
