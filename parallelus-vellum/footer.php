@@ -26,6 +26,7 @@
 							<h3>Add an empty widget in this widget area to hide this</h3>
 						<?php endif; ?>
 					</section>
+					<p>Viewpoint Photographic Art Center is the proud reciepent of a SMAC Cultural Arts Award grant.</p>
 					<section class="footer-widget-area">
 						<?php if (!dynamic_sidebar('fourth-footer-area')) : ?>
 							<?php /* Footer content if widgets are not being used */ ?>

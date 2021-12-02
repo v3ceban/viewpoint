@@ -8048,6 +8048,10 @@ section.footer-widget-area p {
 	footer#Bottom.site {
 		display: grid;
 		padding: 20px 5%;
+		grid-template-areas:
+			"block block block"
+			"full width"
+			"full width";
 	}
 }
 
