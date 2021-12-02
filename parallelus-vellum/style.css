@@ -7984,7 +7984,7 @@ aside.widget.static-block {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	max-height: 120px;
-	margin: 0;
+	margin-bottom: 7.5px;
 }
 
 .cat-container div h2 a:link,
@@ -8000,5 +8000,11 @@ aside.widget.static-block {
 
 .cat-container .cat-footer {
 	padding: 10px;
-	background: #ddd;
+	background: #efefef;
+	color: #9a9a97;
+}
+
+.cat-container .cat-footer a:link,
+.cat-container .cat-footer a:visited {
+	color: #9a9a97;
 }
