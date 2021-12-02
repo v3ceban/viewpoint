@@ -8,36 +8,34 @@
 				</div><!-- #Middle -->
 
 				<footer id="Bottom" class="site">
-					<div class="main-footer-content">
-						<section class="footer-widget-area">
-							<?php if (!dynamic_sidebar('first-footer-area')) : ?>
-								<?php /* Footer content if widgets are not being used */ ?>
-								<h3>Add an empty widget in this widget area to hide this</h3>
-							<?php endif; ?>
-						</section>
-						<section class="footer-widget-area">
-							<?php if (!dynamic_sidebar('second-footer-area')) : ?>
-								<?php /* Footer content if widgets are not being used */ ?>
-								<h3>Add an empty widget in this widget area to hide this</h3>
-							<?php endif; ?>
-						</section>
-						<section class="footer-widget-area">
-							<?php if (!dynamic_sidebar('third-footer-area')) : ?>
-								<?php /* Footer content if widgets are not being used */ ?>
-								<h3>Add an empty widget in this widget area to hide this</h3>
-							<?php endif; ?>
-						</section>
-						<section class="footer-widget-area">
-							<?php if (!dynamic_sidebar('fourth-footer-area')) : ?>
-								<?php /* Footer content if widgets are not being used */ ?>
-								<h3>Add an empty widget in this widget area to hide this</h3>
-							<?php endif; ?>
-						</section>
-					</div>
-					<div class="bottom-line">
-						<p>&copy; <?php echo date('Y'); ?> Viewpoint Photographic Art Center, Inc. &#x2022; All rights reserved.</p>
-					</div>
+					<section class="footer-widget-area">
+						<?php if (!dynamic_sidebar('first-footer-area')) : ?>
+							<?php /* Footer content if widgets are not being used */ ?>
+							<h3>Add an empty widget in this widget area to hide this</h3>
+						<?php endif; ?>
+					</section>
+					<section class="footer-widget-area">
+						<?php if (!dynamic_sidebar('second-footer-area')) : ?>
+							<?php /* Footer content if widgets are not being used */ ?>
+							<h3>Add an empty widget in this widget area to hide this</h3>
+						<?php endif; ?>
+					</section>
+					<section class="footer-widget-area">
+						<?php if (!dynamic_sidebar('third-footer-area')) : ?>
+							<?php /* Footer content if widgets are not being used */ ?>
+							<h3>Add an empty widget in this widget area to hide this</h3>
+						<?php endif; ?>
+					</section>
+					<section class="footer-widget-area">
+						<?php if (!dynamic_sidebar('fourth-footer-area')) : ?>
+							<?php /* Footer content if widgets are not being used */ ?>
+							<h3>Add an empty widget in this widget area to hide this</h3>
+						<?php endif; ?>
+					</section>
 				</footer><!-- #Bottom -->
+				<div class="bottom-line">
+					<p>&copy; <?php echo date('Y'); ?> Viewpoint Photographic Art Center, Inc. &#x2022; All rights reserved.</p>
+				</div>
 
 				</div> <!-- #ContentWrapper -->
 				</div><!-- #page -->
