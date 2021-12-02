@@ -8024,6 +8024,18 @@ footer#Bottom.site {
 footer#Bottom.site h2,
 footer#Bottom.site h3 {
 	color: white;
+	font-weight: normal;
+}
+
+footer#Bottom.site h3 {
+	margin-bottom: 10px;
+}
+
+footer#Bottom.site section,
+footer#Bottom.site h2,
+footer#Bottom.site h3,
+footer#Bottom.site p {
+	padding-right: 20px;
 }
 
 section.footer-widget-area ul {
@@ -8053,6 +8065,11 @@ section.footer-widget-area p {
 			"full width"
 			"full width";
 	}
+}
+
+#SMAC {
+	margin: 20px;
+	width: 100%;
 }
 
 #bottom-line {
