@@ -7980,6 +7980,12 @@ aside.widget.static-block {
 	margin-top: 0px;
 }
 
+.cat-container div p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-height: 120px;
+}
+
 .cat-container div h2 a:link,
 .cat-container div h2 a:visited {
 	color: #555555;
