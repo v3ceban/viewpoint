@@ -8057,7 +8057,8 @@ section.footer-widget-area p {
 
 @media screen and (min-width: 770px) {
 	footer#Bottom.site {
-		width: 100vw;
+		width: 100%;
+		overflow-y: hidden;
 		display: grid;
 		padding: 20px 5%;
 		grid-template-areas:
