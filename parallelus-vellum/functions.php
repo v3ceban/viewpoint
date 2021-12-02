@@ -215,3 +215,24 @@ if (function_exists('is_woocommerce')) {
 
 add_filter('auto_update_plugin', '__return_false');
 add_filter('auto_update_theme', '__return_false');
+
+//widget function
+function basic_widget_init()
+{
+	register_sidebar(array(
+		//name for the widget area
+		'name' => __('Primary Widget Area', 'basic'),
+		//id for the dynamic_sidebar('primary-widget-area') snippet
+		'id' => 'primary-widget-area',
+		//description for the widget area
+		'description' => __('The primary widget area', 'basic'),
+		//tag for each widget container
+		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</div>',
+		//tag for each widget title
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	));
+}
+
+add_action('widgets_init', 'basic_widget_init');
