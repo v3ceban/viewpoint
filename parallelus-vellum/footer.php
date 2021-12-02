@@ -9,10 +9,28 @@
 
 				<footer id="Bottom" class="site">
 					<?php /* If widgets are being used, display them */ ?>
-					<?php if (!dynamic_sidebar('primary-widget-area')) : ?>
-						<?php /* Aside content if widgets are not being used */ ?>
-						<h2>Header</h2>
-						<p>Paragraph</p>
+					<?php if (!dynamic_sidebar('first-footer-area')) : ?>
+						<?php /* Footer content if widgets are not being used */ ?>
+						<h2>The footer should go here!</h2>
+						<p>Yes, right here!</p>
+					<?php endif; ?>
+					<?php /* If widgets are being used, display them */ ?>
+					<?php if (!dynamic_sidebar('second-footer-area')) : ?>
+						<?php /* Footer content if widgets are not being used */ ?>
+						<h2>The footer should go here!</h2>
+						<p>Yes, right here!</p>
+					<?php endif; ?>
+					<?php /* If widgets are being used, display them */ ?>
+					<?php if (!dynamic_sidebar('third-footer-area')) : ?>
+						<?php /* Footer content if widgets are not being used */ ?>
+						<h2>The footer should go here!</h2>
+						<p>Yes, right here!</p>
+					<?php endif; ?>
+					<?php /* If widgets are being used, display them */ ?>
+					<?php if (!dynamic_sidebar('fourth-footer-area')) : ?>
+						<?php /* Footer content if widgets are not being used */ ?>
+						<h2>The footer should go here!</h2>
+						<p>Yes, right here!</p>
 					<?php endif; ?>
 				</footer><!-- #Bottom -->
 

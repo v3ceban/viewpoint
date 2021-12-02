@@ -221,11 +221,56 @@ function basic_widget_init()
 {
 	register_sidebar(array(
 		//name for the widget area
-		'name' => __('Primary Widget Area', 'basic'),
+		'name' => __('First Footer Area', 'basic'),
 		//id for the dynamic_sidebar('primary-widget-area') snippet
-		'id' => 'primary-widget-area',
+		'id' => 'first-footer-area',
 		//description for the widget area
-		'description' => __('The primary widget area', 'basic'),
+		'description' => __('First Footer Area', 'basic'),
+		//tag for each widget container
+		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</div>',
+		//tag for each widget title
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	));
+
+	register_sidebar(array(
+		//name for the widget area
+		'name' => __('Second Footer Area', 'basic'),
+		//id for the dynamic_sidebar('primary-widget-area') snippet
+		'id' => 'second-footer-area',
+		//description for the widget area
+		'description' => __('Second Footer Area', 'basic'),
+		//tag for each widget container
+		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</div>',
+		//tag for each widget title
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	));
+
+	register_sidebar(array(
+		//name for the widget area
+		'name' => __('Third Footer Area', 'basic'),
+		//id for the dynamic_sidebar('primary-widget-area') snippet
+		'id' => 'third-footer-area',
+		//description for the widget area
+		'description' => __('Third Footer Area', 'basic'),
+		//tag for each widget container
+		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</div>',
+		//tag for each widget title
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	));
+
+	register_sidebar(array(
+		//name for the widget area
+		'name' => __('Fourth Footer Area', 'basic'),
+		//id for the dynamic_sidebar('primary-widget-area') snippet
+		'id' => 'fourth-footer-area',
+		//description for the widget area
+		'description' => __('Fourth Footer Area', 'basic'),
 		//tag for each widget container
 		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</div>',
