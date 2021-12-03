@@ -8017,6 +8017,12 @@ h1.archive-title {
 	}
 }
 
+@media screen and (min-width: 1100px) {
+	.cat-container {
+		display: flex;
+	}
+}
+
 /* Old-Cats
 
 .cat-container {
