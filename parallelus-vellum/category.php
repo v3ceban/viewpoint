@@ -6,7 +6,7 @@
 get_header(); ?>
 
 <section id="primary" class="site-content">
-	<div id="content" role="main">
+	<div id="content" class="cat-content-container" role="main">
 
 		<header class="archive-header">
 			<h1 class="archive-title"><?php echo single_cat_title('', false); ?></h1>
@@ -35,6 +35,12 @@ get_header(); ?>
 			wp_reset_query(); ?>
 			<?php /* The loop ends here */ ?>
 		</section>
+		<aside class="cat-widget-area">
+			<?php if (!dynamic_sidebar('cat-aside-area')) : ?>
+				<?php /* Footer content if widgets are not being used */ ?>
+				<h3>Add an empty widget in this widget area to hide this</h3>
+			<?php endif; ?>
+		</aside>
 	</div><!-- #content -->
 </section><!-- #primary -->
 

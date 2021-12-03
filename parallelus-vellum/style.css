@@ -7936,6 +7936,8 @@ aside.widget.static-block {
 	padding-right: 17.5px;
 }
 
+/*Homepage*/
+
 .vc_grid-item-mini p {
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -7957,6 +7959,8 @@ aside.widget.static-block {
 	display: inline-block !important;
 	margin-right: 10px !important;
 }
+
+/*Category page*/
 
 .homePageMainSlider .vc_carousel-indicators li:last-of-type {
 	margin-right: 0px !important;
@@ -8012,6 +8016,8 @@ h1.archive-title {
 .cat-container .cat-footer a:visited {
 	color: #9a9a97;
 }
+
+/*Footer styles*/
 
 footer#Bottom.site {
 	padding: 20px 10%;
