@@ -7968,6 +7968,11 @@ aside.widget.static-block {
 
 section.cat-container div.post {
 	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+section.cat-container div.post h2 a {
+	color: #555;
 }
 
 @media screen and (min-width: 770px) {
