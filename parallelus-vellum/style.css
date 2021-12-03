@@ -7966,6 +7966,10 @@ aside.widget.static-block {
 
 /*Category page*/
 
+section.cat-container div.post {
+	background-color: #fff;
+}
+
 @media screen and (min-width: 770px) {
 	main.main-container {
 		display: grid;
