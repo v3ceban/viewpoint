@@ -7976,11 +7976,15 @@ h1.archive-title {
 }
 
 .cat-container .post h2 {
-	margin: 10px 5px;
+	margin: 10px;
 }
 
 .cat-container .post h2 a {
 	color: #555;
+}
+
+.cat-container .post p {
+	margin: 0 10px;
 }
 
 .cat-container .cat-footer {
