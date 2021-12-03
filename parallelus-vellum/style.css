@@ -7975,9 +7975,13 @@ h1.archive-title {
 	margin-bottom: 20px;
 }
 
+.cat-container .post h2 {
+	font-size: 0.75em;
+	margin: 10px 5px;
+}
+
 .cat-container .post h2 a {
 	color: #555;
-	font-size: 0.75em;
 }
 
 .cat-container .cat-footer {
