@@ -8001,6 +8001,11 @@ h1.archive-title {
 .cat-widget-area h3 {
 	color: white;
 	margin-bottom: 15px;
+	margin-top: 100px;
+}
+
+.cat-widget-area h3:nth-of-type(1) {
+	margin-top: 0px;
 }
 
 .cat-widget-area ul {
@@ -8020,7 +8025,7 @@ h1.archive-title {
 	.main-container {
 		display: grid;
 		grid-template-columns: 3fr 1fr;
-		gap: 20px;
+		gap: 100px;
 	}
 }
 
