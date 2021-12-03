@@ -7988,6 +7988,7 @@ h1.archive-title {
 }
 
 .cat-container .cat-footer {
+	margin-top: 10px;
 	padding: 10px;
 	background: #efefef;
 	color: #9a9a97;
