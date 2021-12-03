@@ -7966,17 +7966,21 @@ aside.widget.static-block {
 
 /*Category page*/
 
-section.cat-container div.post {
+.cat-container .post {
 	background-color: #fff;
 	margin-bottom: 20px;
 }
 
-section.cat-container div.post h2 a {
+.cat-container .post h2 a {
 	color: #555;
 }
 
+.cat-container .cat-footer a {
+	background-color: #9a9a97;
+}
+
 @media screen and (min-width: 770px) {
-	main.main-container {
+	.main-container {
 		display: grid;
 		grid-template-columns: 3fr 1fr;
 		gap: 20px;
