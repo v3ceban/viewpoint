@@ -34,8 +34,8 @@ get_header(); ?>
 					</section>
 				<?php endif;
 				wp_reset_query(); ?>
-				<?php /* The loop ends here */ ?>
 			</section>
+			<?php /* The loop ends here */ ?>
 			<aside class="cat-widget-area">
 				<?php if (!dynamic_sidebar('cat-aside-area')) : ?>
 					<?php /* Footer content if widgets are not being used */ ?>
