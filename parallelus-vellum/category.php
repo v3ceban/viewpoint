@@ -28,11 +28,11 @@ get_header(); ?>
 					</div><?php /* end post class div */ ?>
 				<?php endwhile; ?>
 			<?php else : ?>
-				<div id="not-found">
+				<section id="not-found">
 					<h2>Not Found</h2>
 					<p>Sorry, but you are looking for something that isn't here.</p>
 					<?php get_search_form(); ?>
-				</div>
+				</section>
 			<?php endif;
 			wp_reset_query(); ?>
 			<?php /* The loop ends here */ ?>
