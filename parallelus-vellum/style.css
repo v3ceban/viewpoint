@@ -8001,11 +8001,6 @@ h1.archive-title {
 .cat-widget-area h3 {
 	color: white;
 	margin-bottom: 15px;
-	margin-top: 0px;
-}
-
-.cat-widget-area #block-28 h3 {
-	margin-top: 100px;
 }
 
 .cat-widget-area ul {
@@ -8025,11 +8020,23 @@ h1.archive-title {
 	.main-container {
 		display: grid;
 		grid-template-columns: 3fr 1fr;
-		gap: 100px;
+		gap: 50px;
+	}
+
+	.cat-widget-area h3 {
+		margin-top: 0px;
+	}
+
+	.cat-widget-area #block-28 h3 {
+		margin-top: 100px;
 	}
 }
 
 @media screen and (min-width: 1100px) {
+	.main-container {
+		gap: 5%;
+	}
+
 	.cat-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
