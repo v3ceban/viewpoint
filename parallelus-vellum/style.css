@@ -7966,6 +7966,10 @@ aside.widget.static-block {
 
 /*Category page*/
 
+h1.archive-title {
+	text-transform: uppercase;
+}
+
 .cat-container .post {
 	background-color: #fff;
 	margin-bottom: 20px;
@@ -7973,10 +7977,17 @@ aside.widget.static-block {
 
 .cat-container .post h2 a {
 	color: #555;
+	font-size: 0.75em;
+}
+
+.cat-container .cat-footer {
+	padding: 10px;
+	background: #efefef;
+	color: #9a9a97;
 }
 
 .cat-container .cat-footer a {
-	background-color: #9a9a97;
+	color: #9a9a97;
 }
 
 @media screen and (min-width: 770px) {
@@ -7985,10 +7996,6 @@ aside.widget.static-block {
 		grid-template-columns: 3fr 1fr;
 		gap: 20px;
 	}
-}
-
-h1.archive-title {
-	text-transform: uppercase;
 }
 
 /* Old-Cats
