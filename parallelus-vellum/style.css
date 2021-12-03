@@ -7968,13 +7968,15 @@ aside.widget.static-block {
 
 main.main-container {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 3fr 1fr;
 	gap: 20px;
 }
 
 h1.archive-title {
 	text-transform: uppercase;
 }
+
+/* Old-Cats
 
 .cat-container {
 	display: flex;
@@ -8021,7 +8023,7 @@ h1.archive-title {
 .cat-container .cat-footer a:link,
 .cat-container .cat-footer a:visited {
 	color: #9a9a97;
-}
+} */
 
 /*Footer styles*/
 
