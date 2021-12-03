@@ -7968,6 +7968,7 @@ h1.archive-title {
 	background-color: #fff;
 	margin-bottom: 55px;
 	position: relative;
+	max-width: 768px;
 }
 
 .cat-container .post h2 {
