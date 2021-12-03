@@ -28,8 +28,9 @@ get_header(); ?>
 					<?php endwhile; ?>
 				<?php else : ?>
 					<section id="not-found">
-						<h2>Not Found</h2>
-						<p>Sorry, but you are looking for something that isn't here.</p>
+						<h2>We're very sorry!</h2>
+						<p>It seems that we don't have any current or upcoming events in this category.</p>
+						<p>Try searching for something else, or check out our archives!</p>
 						<?php get_search_form(); ?>
 					</section>
 				<?php endif;
