@@ -7966,7 +7966,7 @@ h1.archive-title {
 
 .cat-container .post {
 	background-color: #fff;
-	margin-bottom: 50px;
+	margin-bottom: 55px;
 	position: relative;
 }
 
@@ -7990,6 +7990,7 @@ h1.archive-title {
 	position: absolute;
 	bottom: -30px;
 	left: 0;
+	width: 100%;
 }
 
 .cat-container .cat-footer a {
