@@ -7938,12 +7938,6 @@ aside.widget.static-block {
 
 /*Homepage*/
 
-.vc_grid-item-mini p {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	max-height: 120px;
-}
-
 .vc_gitem_row {
 	background: #2a2a2a;
 	color: #ddd;
