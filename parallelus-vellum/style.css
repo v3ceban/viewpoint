@@ -7979,7 +7979,8 @@ h1.archive-title {
 }
 
 .cat-container .post p {
-	margin: 0px 30px 30px 30px;
+	margin: 0px 30px 0 30px;
+	padding-bottom: 30px;
 }
 
 .cat-container .cat-footer {
