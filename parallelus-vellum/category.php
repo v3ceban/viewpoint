@@ -13,36 +13,38 @@ get_header(); ?>
 		</header><!-- .archive-header -->
 
 		<?php /* Main Content loop that gets content for the page */ ?>
-		<section class="cat-container">
-			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-					<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-						<?php /* Featured image displays here (full, large, medium_large, medium, or thumbnail) */ ?>
-						<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium') ?></a>
-						<div class="cat-text-content">
-							<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-							<p><?php the_excerpt(); ?></p>
-						</div>
-						<div class="cat-footer">
-							<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More...</a>
-						</div>
-					</div><?php /* end post class div */ ?>
-				<?php endwhile; ?>
-			<?php else : ?>
-				<section id="not-found">
-					<h2>Not Found</h2>
-					<p>Sorry, but you are looking for something that isn't here.</p>
-					<?php get_search_form(); ?>
-				</section>
-			<?php endif;
-			wp_reset_query(); ?>
-			<?php /* The loop ends here */ ?>
-		</section>
-		<aside class="cat-widget-area">
-			<?php if (!dynamic_sidebar('cat-aside-area')) : ?>
-				<?php /* Footer content if widgets are not being used */ ?>
-				<h3>Add an empty widget in this widget area to hide this</h3>
-			<?php endif; ?>
-		</aside>
+		<main class="main-conteiner">
+			<section class="cat-container">
+				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+						<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
+							<?php /* Featured image displays here (full, large, medium_large, medium, or thumbnail) */ ?>
+							<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium') ?></a>
+							<div class="cat-text-content">
+								<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+								<p><?php the_excerpt(); ?></p>
+							</div>
+							<div class="cat-footer">
+								<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More...</a>
+							</div>
+						</div><?php /* end post class div */ ?>
+					<?php endwhile; ?>
+				<?php else : ?>
+					<section id="not-found">
+						<h2>Not Found</h2>
+						<p>Sorry, but you are looking for something that isn't here.</p>
+						<?php get_search_form(); ?>
+					</section>
+				<?php endif;
+				wp_reset_query(); ?>
+				<?php /* The loop ends here */ ?>
+			</section>
+			<aside class="cat-widget-area">
+				<?php if (!dynamic_sidebar('cat-aside-area')) : ?>
+					<?php /* Footer content if widgets are not being used */ ?>
+					<h3>Add an empty widget in this widget area to hide this</h3>
+				<?php endif; ?>
+			</aside>
+		</main>
 	</div><!-- #content -->
 </section><!-- #primary -->
 
