@@ -7993,6 +7993,7 @@ h1.archive-title {
 
 .cat-widget-area h3 {
 	color: white;
+	margin-bottom: 15px;
 }
 
 .cat-widget-area ul {
@@ -8001,7 +8002,7 @@ h1.archive-title {
 }
 
 .cat-widget-area ul li {
-	margin: 0;
+	margin: 10px 0;
 }
 
 .cat-widget-area ul li a {
