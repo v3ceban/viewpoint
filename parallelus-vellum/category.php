@@ -20,7 +20,7 @@ get_header(); ?>
 							<?php /* Featured image displays here (full, large, medium_large, medium, or thumbnail) */ ?>
 							<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium_large') ?></a>
 							<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-							<?php echo get_excerpt(); ?>
+							<?php the_excerpt(); ?>
 							<div class="cat-footer">
 								<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More...</a>
 							</div>
