@@ -7966,10 +7966,12 @@ aside.widget.static-block {
 
 /*Category page*/
 
-main.main-container {
-	display: grid;
-	grid-template-columns: 3fr 1fr;
-	gap: 20px;
+@media screen and (min-width: 770px) {
+	main.main-container {
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		gap: 20px;
+	}
 }
 
 h1.archive-title {
