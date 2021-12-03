@@ -7960,10 +7960,16 @@ aside.widget.static-block {
 	margin-right: 10px !important;
 }
 
-/*Category page*/
-
 .homePageMainSlider .vc_carousel-indicators li:last-of-type {
 	margin-right: 0px !important;
+}
+
+/*Category page*/
+
+main.main-container {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	gap: 20px;
 }
 
 h1.archive-title {

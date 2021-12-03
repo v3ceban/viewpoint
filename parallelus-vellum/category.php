@@ -13,7 +13,7 @@ get_header(); ?>
 		</header><!-- .archive-header -->
 
 		<?php /* Main Content loop that gets content for the page */ ?>
-		<main class="main-conteiner">
+		<main class="main-container">
 			<section class="cat-container">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
