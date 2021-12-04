@@ -8025,6 +8025,10 @@ h1.archive-title {
 	color: inherit;
 }
 
+.cat-widget-area ul li a:hover {
+	color: #f8c850;
+}
+
 @media screen and (min-width: 770px) {
 	.main-container {
 		display: grid;
