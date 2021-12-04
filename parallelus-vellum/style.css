@@ -7999,7 +7999,7 @@ h1.archive-title {
 	color: #999;
 }
 
-.cat-container .cat-footer a[href^"https://www.viewpointphotoartcenter.org/category/current/"]
+.cat-container .cat-footer a[href^="https://www.viewpointphotoartcenter.org/category/current/"]
 {
 	display: none;
 }
