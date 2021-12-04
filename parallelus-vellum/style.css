@@ -8026,6 +8026,7 @@ h1.archive-title {
 
 .cat-container .cat-footer a {
 	color: #999;
+	font-weight: bold;
 }
 
 .cat-container .cat-footer a:hover {
