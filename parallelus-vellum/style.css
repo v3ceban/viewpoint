@@ -8000,7 +8000,7 @@ h1.archive-title {
 	color: #f8c850;
 }
 
-.cat-container .post p {
+.cat-container .post p:nth-of-type(2) {
 	margin: 0px 30px 0 30px;
 	padding-bottom: 30px;
 }
