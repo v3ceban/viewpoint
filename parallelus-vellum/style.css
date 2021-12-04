@@ -7993,6 +7993,8 @@ h1.archive-title {
 	bottom: -30px;
 	left: 0;
 	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
 .cat-container .cat-footer a {
