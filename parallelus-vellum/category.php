@@ -18,11 +18,12 @@ get_header(); ?>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 							<?php /* Featured image displays here (full, large, medium_large, medium, or thumbnail) */ ?>
-							<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium_large') ?></a>
-							<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+							<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium_large') ?></a>
+							<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 							<p><?php the_excerpt(); ?></p>
 							<div class="cat-footer">
-								<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More...</a>
+								<?php wp_get_post_categories(); ?>
+								<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More...</a>
 							</div>
 						</div><?php /* end post class div */ ?>
 					<?php endwhile; ?>
