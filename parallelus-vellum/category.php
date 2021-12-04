@@ -22,7 +22,19 @@ get_header(); ?>
 							<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 							<p><?php the_excerpt(); ?></p>
 							<div class="cat-footer">
-								<?php the_category(', ') ?>
+								<?php
+								function wp_get_post_categories($post_id = 0, $args = array())
+								{
+									$post_id = (int) $post_id;
+
+									$defaults = array('fields' => 'ids');
+									$args     = wp_parse_args($args, $defaults);
+
+									$cats = wp_get_object_terms($post_id, 'category', $args);
+									return $cats;
+								}
+								echo $cats;
+								?>
 								<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More...</a>
 							</div>
 						</div><?php /* end post class div */ ?>
