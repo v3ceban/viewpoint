@@ -15,8 +15,8 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<link rel="shortcut icon" href="<?php options_data('options-page', 'favorites-icon'); ?>">
 	<link rel="apple-touch-icon-precomposed" href="<?php options_data('options-page', 'mobile-bookmark'); ?>">
+	<script src="https://kit.fontawesome.com/ed9239fef9.js" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/custom-styles.css">
 </head>
 
 <body <?php body_class(); ?>>
