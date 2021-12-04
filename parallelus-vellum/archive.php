@@ -32,7 +32,7 @@ get_header(); ?>
 							<p><?php the_excerpt(); ?></p>
 							<div class="cat-footer">
 								<?php the_category(' ') ?>
-								<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More...</a>
+								<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More <i class="fas fa-angle-right"></i></a>
 							</div>
 						</div><?php /* end post class div */ ?>
 					<?php endwhile; ?>
