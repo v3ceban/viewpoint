@@ -7971,6 +7971,11 @@ h1.archive-title {
 	max-width: 768px;
 }
 
+.cat-container .post a:nth-of-type(1):hover > img {
+	opacity: 80%;
+	transition: all 0.2s ease;
+}
+
 .cat-container .post h2 {
 	margin: 30px 30px 20px 30px;
 }
