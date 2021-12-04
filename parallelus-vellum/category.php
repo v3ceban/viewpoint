@@ -22,7 +22,7 @@ get_header(); ?>
 							<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 							<p><?php the_excerpt(); ?></p>
 							<div class="cat-footer">
-								<?php the_category(', ') ?>
+								<?php the_category() ?>
 								<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More...</a>
 							</div>
 						</div><?php /* end post class div */ ?>
