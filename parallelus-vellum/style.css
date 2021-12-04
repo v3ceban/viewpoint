@@ -7979,6 +7979,10 @@ h1.archive-title {
 	color: #555;
 }
 
+.cat-container .post h2 a:hover {
+	color: #f8c850;
+}
+
 .cat-container .post p {
 	margin: 0px 30px 0 30px;
 	padding-bottom: 30px;
@@ -7988,7 +7992,7 @@ h1.archive-title {
 	box-sizing: border-box;
 	padding: 10px;
 	background: #efefef;
-	color: #9a9a97;
+	color: #999;
 	position: absolute;
 	bottom: -30px;
 	left: 0;
@@ -7996,11 +8000,15 @@ h1.archive-title {
 }
 
 .cat-container .cat-footer a {
-	color: #9a9a97;
+	color: #999;
+}
+
+.cat-container .cat-footer a:hover {
+	color: #f8c850;
 }
 
 .cat-widget-area h3 {
-	color: white;
+	color: #ddd;
 	margin-bottom: 15px;
 }
 
@@ -8046,67 +8054,18 @@ h1.archive-title {
 	}
 }
 
-/* Old-Cats
-
-.cat-container {
-	display: flex;
-}
-
-.cat-container > div {
-	max-width: 60vw;
-	background-color: #fff;
-}
-
-.cat-container > :nth-child(odd) {
-	margin-right: 30px;
-}
-
-.cat-container div h2 {
-	margin-bottom: 10px;
-	margin-top: 0px;
-}
-
-.cat-container div p {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	max-height: 120px;
-	margin-bottom: 7.5px;
-}
-
-.cat-container div h2 a:link,
-.cat-container div h2 a:visited {
-	color: #555555;
-	font-size: 0.75em;
-}
-
-.cat-container .cat-text-content {
-	padding: 10px 20px 0px 20px;
-	max-width: fit-content;
-}
-
-.cat-container .cat-footer {
-	padding: 10px;
-	background: #efefef;
-	color: #9a9a97;
-}
-
-.cat-container .cat-footer a:link,
-.cat-container .cat-footer a:visited {
-	color: #9a9a97;
-} */
-
 /*Footer styles*/
 
 footer#Bottom.site {
 	padding: 20px 10%;
 	margin: 50px 0 0 0;
 	background: #2a2a2a;
-	color: white;
+	color: #ddd;
 }
 
 footer#Bottom.site h2,
 footer#Bottom.site h3 {
-	color: white;
+	color: #ddd;
 	font-weight: normal;
 }
 
@@ -8129,6 +8088,10 @@ section.footer-widget-area ul {
 section.footer-widget-area a {
 	color: inherit !important;
 	text-decoration: none;
+}
+
+section.footer-widget-area a:hover {
+	color: #f8c850 !important;
 }
 
 section.footer-widget-area ul li {
@@ -8233,6 +8196,6 @@ section.footer-widget-area p {
 #bottom-line p {
 	margin: 0;
 	text-align: center;
-	color: white;
+	color: #ddd;
 	padding: 0 10px;
 }
