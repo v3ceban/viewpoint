@@ -7999,6 +7999,11 @@ h1.archive-title {
 	color: #999;
 }
 
+.cat-container .cat-footer a[href^"https://www.viewpointphotoartcenter.org/category/current/"]
+{
+	display: none;
+}
+
 .cat-widget-area h3 {
 	color: #ddd;
 	margin-bottom: 15px;
