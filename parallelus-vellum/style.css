@@ -7976,11 +7976,7 @@ h1.archive-title {
 }
 
 .cat-container .post h2 a {
-	color: #555;
-}
-
-.cat-container .post h2 a:hover {
-	color: #f8c850;
+	color: #ddd;
 }
 
 .cat-container .post p {
@@ -8001,10 +7997,6 @@ h1.archive-title {
 
 .cat-container .cat-footer a {
 	color: #999;
-}
-
-.cat-container .cat-footer a:hover {
-	color: #f8c850;
 }
 
 .cat-widget-area h3 {
