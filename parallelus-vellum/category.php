@@ -31,7 +31,7 @@ get_header(); ?>
 					<section id="not-found">
 						<h2>We're very sorry!</h2>
 						<p>It seems that we don't have any current or upcoming events in this category.</p>
-						<p>Try searching for something else, or check out our archives!</p>
+						<p>Try searching for something else, or check out our Past Exhibits!</p>
 						<?php get_search_form(); ?>
 					</section>
 				<?php endif;
