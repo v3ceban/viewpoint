@@ -7988,12 +7988,16 @@ h1.archive-title {
 
 .cat-container .post h2 {
 	margin: 30px 30px 20px 30px;
-	font-size: 0.9;
+	font-size: 1em;
 	font-weight: bold;
 }
 
 .cat-container .post h2 a {
-	color: #999;
+	color: #393939;
+}
+
+.cat-container .post h2 a:hover {
+	color: #f8c850;
 }
 
 .cat-container .post p {
