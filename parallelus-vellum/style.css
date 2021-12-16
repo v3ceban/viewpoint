@@ -8234,3 +8234,9 @@ section.footer-widget-area p {
 	color: #ddd;
 	padding: 0 10px;
 }
+
+/*Sponsors*/
+
+section#sponsors .disabled {
+	display: none;
+}
