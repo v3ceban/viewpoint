@@ -8241,3 +8241,9 @@ section#sponsors .disabled,
 section#sponsors p:empty {
 	display: none;
 }
+
+section#sponsors div.owl-stage {
+	display: flex !important;
+	align-items: center !important;
+    align-content: center !important;
+}
