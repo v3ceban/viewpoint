@@ -6,7 +6,12 @@
 
 				</div><!-- .main-content -->
 				</div><!-- #Middle -->
-
+				<section id="sponsors">
+					<?php if (!dynamic_sidebar('sponsors-widget-area')) : ?>
+						<?php /* Footer content if widgets are not being used */ ?>
+						<h3>Add an empty widget in this widget area to hide this</h3>
+					<?php endif; ?>
+				</section>
 				<footer id="Bottom" class="site">
 					<section class="footer-widget-area">
 						<?php if (!dynamic_sidebar('first-footer-area')) : ?>

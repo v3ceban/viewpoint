@@ -221,6 +221,21 @@ function basic_widget_init()
 {
 	register_sidebar(array(
 		//name for the widget area
+		'name' => __('Sponsors Widget Area', 'basic'),
+		//id for the dynamic_sidebar('primary-widget-area') snippet
+		'id' => 'sponsors-widget-area',
+		//description for the widget area
+		'description' => __('Sponsors Widget Area', 'basic'),
+		//tag for each widget container
+		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</div>',
+		//tag for each widget title
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	));
+
+	register_sidebar(array(
+		//name for the widget area
 		'name' => __('First Footer Area', 'basic'),
 		//id for the dynamic_sidebar('primary-widget-area') snippet
 		'id' => 'first-footer-area',
