@@ -7958,6 +7958,18 @@ aside.widget.static-block {
 	margin-right: 0px !important;
 }
 
+.vc_btn3.vc_btn3-color-juicy-pink,
+.vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat {
+	background-color: #811826;
+}
+
+.vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat:focus,
+.vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat:hover,
+.vc_btn3.vc_btn3-color-juicy-pink:focus,
+.vc_btn3.vc_btn3-color-juicy-pink:hover {
+	background-color: #992535;
+}
+
 /*Category page*/
 
 h1.archive-title {
