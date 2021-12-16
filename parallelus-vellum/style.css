@@ -8249,6 +8249,10 @@ section.footer-widget-area p {
 
 /*Sponsors*/
 
+section#sponsors {
+	margin-top: 100px;
+}
+
 section#sponsors .disabled,
 section#sponsors p:empty {
 	display: none;
