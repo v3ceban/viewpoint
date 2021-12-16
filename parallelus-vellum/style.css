@@ -8245,5 +8245,13 @@ section#sponsors p:empty {
 section#sponsors div.owl-stage {
 	display: flex !important;
 	align-items: center !important;
-    align-content: center !important;
+	align-content: center !important;
+}
+
+section#sponsors div.owl-item > div {
+	min-height: auto;
+}
+
+section#sponsors div.owl-item > div p {
+	text-align: center;
 }
