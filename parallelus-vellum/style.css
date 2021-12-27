@@ -8318,4 +8318,11 @@ section#sponsors div.owl-item > div p {
 	main#theSinglePostContent {
 		display: flex;
 	}
+	.currentPostContent {
+		flex-basis: 60%;
+	}
+
+	#singleAside {
+		flex-basis: 40%;
+	}
 }

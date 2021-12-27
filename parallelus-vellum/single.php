@@ -27,7 +27,7 @@ get_header(); ?>
 				}
 				?>
 				<main id="theSinglePostContent">
-					<div>
+					<div class="currentPostContent">
 						<?php get_template_part('templates/post', get_post_format()); ?>
 					</div>
 					<!--Post Content-->
