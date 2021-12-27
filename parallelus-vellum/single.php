@@ -44,6 +44,10 @@ get_header(); ?>
 							<p><?php the_field('artists_bio'); ?></p>
 						<?php endif; ?>
 						<hr>
+						<h2>Details</h2>
+						<?php if (get_field('exhibit_dates_from')) : ?>
+							<p>Exhibit Dates: <?php the_field('exhibit_dates_from'); ?> - <?php if (get_field('exhibit_dates_to')) : the_field('exhibit_dates_to');?></p>
+						<?php endif; ?>
 					</aside>
 				</main>
 				<?php
