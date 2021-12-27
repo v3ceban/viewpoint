@@ -7970,6 +7970,17 @@ aside.widget.static-block {
 	background-color: #992535;
 }
 
+div.vc_gitem-animated-block {
+	overflow: hidden;
+	background-color: #fff;
+}
+
+div.vc_gitem-animated-block:hover > .vc_gitem-zone,
+div.vc_gitem-animated-block:focus > .vc_gitem-zone {
+	transform: scale(1.1);
+	opacity: 80%;
+}
+
 /*Category page*/
 
 h1.archive-title {
@@ -7992,7 +8003,8 @@ h1.archive-title {
 	transition: all 0.1s ease;
 }
 
-.cat-container .post a:nth-of-type(1):hover > img {
+.cat-container .post a:nth-of-type(1):hover > img,
+.cat-container .post a:nth-of-type(1):focus > img {
 	opacity: 80%;
 	transform: scale(1.1);
 	transition: all 0.2s ease;
