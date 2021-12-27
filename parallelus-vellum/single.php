@@ -26,24 +26,24 @@ get_header(); ?>
 					next_and_previous_post_navigation();
 				}
 				?>
-				<div class="row-fluid theMainPostContent">
+				<main id="theMainPostContent">
+					<div class="row-fluid">
+						<?php get_template_part('templates/post', get_post_format()); ?>
+					</div>
+					<!--Post Content-->
 
-					<?php get_template_part('templates/post', get_post_format()); ?>
-
-				</div><!-- .row-fluid -->
-
-				<aside>
-					<?php if (get_field('artists_name')) : ?>
-						<h2><?php the_field('artists_name'); ?></h2>
-					<?php endif; ?>
-					<?php if (get_field('artists_bio')) : ?>
-						<p><?php the_field('artists_bio'); ?></p>
-					<?php endif; ?>
-					<?php if (get_field('artists_photo')) : ?>
-						<img src="<?php the_field('artists_photo'); ?>" alt="<?php the_field('artists_name'); ?> bio">
-					<?php endif; ?>
-				</aside>
-
+					<aside>
+						<?php if (get_field('artists_name')) : ?>
+							<h2><?php the_field('artists_name'); ?></h2>
+						<?php endif; ?>
+						<?php if (get_field('artists_bio')) : ?>
+							<p><?php the_field('artists_bio'); ?></p>
+						<?php endif; ?>
+						<?php if (get_field('artists_photo')) : ?>
+							<img src="<?php the_field('artists_photo'); ?>" alt="<?php the_field('artists_name'); ?> bio">
+						<?php endif; ?>
+					</aside>
+				</main>
 				<?php
 
 				// Show comments
