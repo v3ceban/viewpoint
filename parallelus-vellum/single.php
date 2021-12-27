@@ -46,9 +46,11 @@ get_header(); ?>
 						<hr>
 						<h2>Details</h2>
 						<?php if (get_field('exhibit_dates_from')) : ?>
-							<p>Exhibit Dates: <?php the_field('exhibit_dates_from'); ?> - <?php if (get_field('exhibit_dates_to')) : the_field('exhibit_dates_to');
-																							endif; ?></p>
+							<p>Exhibit Dates: <?php the_field('exhibit_dates_from'); ?> -
+								<?php if (get_field('exhibit_dates_to')) : the_field('exhibit_dates_to');
+								endif; ?></p>
 						<?php endif; ?>
+						<p>Gallery Space: <?php the_field('gallery_space'); ?></p>
 					</aside>
 				</main>
 				<?php
