@@ -66,7 +66,7 @@ get_header(); ?>
 							<p>Artist Reception: <?php the_field('artist_reception_date'); ?><?php if (get_field('artist_reception_time_from')) : echo (', ');
 																									the_field('artist_reception_time_from');
 																								endif; ?>
-								<?php if (get_field('artist_reception_time_to')) : echo ('to ');
+								<?php if (get_field('artist_reception_time_to') and get_field('artist_reception_time_from')) : echo ('to ');
 									the_field('artist_reception_time_to');
 								endif; ?></p>
 						<?php endif; ?>
