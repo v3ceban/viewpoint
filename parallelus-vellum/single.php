@@ -50,7 +50,12 @@ get_header(); ?>
 								<?php if (get_field('exhibit_dates_to')) : the_field('exhibit_dates_to');
 								endif; ?></p>
 						<?php endif; ?>
-						<p>Gallery Space: <?php the_field('gallery_space'); ?></p>
+						<p>Gallery Space: <?php if (get_field('gallery_space')) : the_field('gallery_space');
+											endif; ?></p>
+						<p>2nd Reception: <?php if (get_field('gallery_space')) : the_field('gallery_space');
+											endif; ?></p>
+						<p>Artist Reception: <?php if (get_field('gallery_space')) : the_field('gallery_space');
+												endif; ?></p>
 					</aside>
 				</main>
 				<?php
