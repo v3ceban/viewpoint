@@ -37,56 +37,60 @@ get_header(); ?>
 							<h2><?php the_field('name'); ?></h2>
 						<?php endif; ?>
 						<hr>
-						<?php if (get_field('photo')) : ?>
-							<img src="<?php the_field('photo'); ?>" alt="<?php the_field('name'); ?> bio">
-						<?php endif; ?>
-						<?php if (get_field('bio')) : ?>
-							<p><?php the_field('bio'); ?></p>
-						<?php endif; ?>
+						<div class="biography">
+							<?php if (get_field('photo')) : ?>
+								<img src="<?php the_field('photo'); ?>" alt="<?php the_field('name'); ?> bio">
+							<?php endif; ?>
+							<?php if (get_field('bio')) : ?>
+								<p><?php the_field('bio'); ?></p>
+							<?php endif; ?>
+						</div>
 						<hr>
 						<h2>Details</h2>
-						<?php if (get_field('dates_from')) : ?>
-							<p>Date: <?php the_field('dates_from'); ?>
-								<?php if (get_field('dates_to')) : echo ('to ');
-									the_field('dates_to');
-								endif; ?></p>
-						<?php endif; ?>
+						<ul>
+							<?php if (get_field('dates_from')) : ?>
+								<li>Date: <?php the_field('dates_from'); ?>
+									<?php if (get_field('dates_to')) : echo ('to ');
+										the_field('dates_to');
+									endif; ?></li>
+							<?php endif; ?>
 
-						<?php if (get_field('gallery_space')) : ?>
-							<p>Gallery Space: <?php the_field('gallery_space'); ?></p>
-						<?php endif; ?>
+							<?php if (get_field('gallery_space')) : ?>
+								<li>Gallery Space: <?php the_field('gallery_space'); ?></li>
+							<?php endif; ?>
 
-						<?php if (get_field('2nd_reception_date')) : ?>
-							<p>2nd Reception: <?php the_field('2nd_reception_date'); ?><?php if (get_field('2nd_reception_time_from')) : echo (', ');
-																							the_field('2nd_reception_time_from');
-																						endif; ?>
-								<?php if (get_field('2nd_reception_time_to') and get_field('2nd_reception_time_from')) : echo ('to ');
-									the_field('2nd_reception_time_to');
-								endif; ?></p>
-						<?php endif; ?>
+							<?php if (get_field('2nd_reception_date')) : ?>
+								<li>2nd Reception: <?php the_field('2nd_reception_date'); ?><?php if (get_field('2nd_reception_time_from')) : echo (', ');
+																								the_field('2nd_reception_time_from');
+																							endif; ?>
+									<?php if (get_field('2nd_reception_time_to') and get_field('2nd_reception_time_from')) : echo ('to ');
+										the_field('2nd_reception_time_to');
+									endif; ?></li>
+							<?php endif; ?>
 
-						<?php if (get_field('artist_reception_date')) : ?>
-							<p>Artist Reception: <?php the_field('artist_reception_date'); ?><?php if (get_field('artist_reception_time_from')) : echo (', ');
-																									the_field('artist_reception_time_from');
-																								endif; ?>
-								<?php if (get_field('artist_reception_time_to') and get_field('artist_reception_time_from')) : echo ('to ');
-									the_field('artist_reception_time_to');
-								endif; ?></p>
-						<?php endif; ?>
+							<?php if (get_field('artist_reception_date')) : ?>
+								<li>Artist Reception: <?php the_field('artist_reception_date'); ?><?php if (get_field('artist_reception_time_from')) : echo (', ');
+																										the_field('artist_reception_time_from');
+																									endif; ?>
+									<?php if (get_field('artist_reception_time_to') and get_field('artist_reception_time_from')) : echo ('to ');
+										the_field('artist_reception_time_to');
+									endif; ?></li>
+							<?php endif; ?>
 
-						<?php if (get_field('workshop_time_from')) : ?>
-							<p>Time: <?php the_field('workshop_time_from'); ?><?php if (get_field('workshop_time_to') and get_field('workshop_time_to')) : echo (' to ');
-																					the_field('workshop_time_to');
-																				endif; ?></p>
-						<?php endif; ?>
+							<?php if (get_field('workshop_time_from')) : ?>
+								<li>Time: <?php the_field('workshop_time_from'); ?><?php if (get_field('workshop_time_to') and get_field('workshop_time_to')) : echo (' to ');
+																						the_field('workshop_time_to');
+																					endif; ?></li>
+							<?php endif; ?>
 
-						<?php if (get_field('location')) : ?>
-							<p>Location: <?php the_field('location'); ?></p>
-						<?php endif; ?>
+							<?php if (get_field('location')) : ?>
+								<li>Location: <?php the_field('location'); ?></li>
+							<?php endif; ?>
 
-						<?php if (get_field('cost')) : ?>
-							<p>Cost: $<?php the_field('cost'); ?></p>
-						<?php endif; ?>
+							<?php if (get_field('cost')) : ?>
+								<li>Cost: $<?php the_field('cost'); ?></li>
+							<?php endif; ?>
+						</ul>
 						<hr>
 
 					</aside>
