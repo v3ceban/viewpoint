@@ -34,10 +34,11 @@ get_header(); ?>
 
 					<aside>
 						<?php if (get_field('name')) : ?>
-							<h2><?php the_field('name'); ?></h2>
+							<h3><?php the_field('name'); ?></h3>
 							<hr>
 						<?php endif; ?>
 						<div class="biography">
+							<h3>Bio</h3>
 							<?php if (get_field('photo')) : ?>
 								<img src="<?php the_field('photo'); ?>" alt="<?php the_field('name'); ?> bio">
 							<?php endif; ?>
