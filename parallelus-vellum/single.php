@@ -90,6 +90,7 @@ get_header(); ?>
 
 							<?php if (get_field('cost')) : ?>
 								<li>Cost: $<?php the_field('cost'); ?></li>
+								<?php else echo('<li>Free!</li>') ?>
 							<?php endif; ?>
 						</ul>
 						<hr>
