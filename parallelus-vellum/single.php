@@ -32,7 +32,7 @@ get_header(); ?>
 					</div>
 					<!--Post Content-->
 
-					<aside>
+					<aside id="singleAside">
 						<?php if (get_field('name')) : ?>
 							<h3><?php the_field('name'); ?></h3>
 							<hr>

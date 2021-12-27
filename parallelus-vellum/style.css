@@ -8287,7 +8287,13 @@ section#sponsors div.owl-item > div p {
 
 /*Singles*/
 
-.biography .bioImage {
-	margin: 0 24px 0 0;
+#singleAside h3 {
+	padding-top: 4px;
+	margin: 0 0 24px 0;
+	font-weight: 600;
+}
+
+#singleAside .biography .bioImage {
+	margin: 6px 24px 0 0;
 	max-width: 176px;
 }
