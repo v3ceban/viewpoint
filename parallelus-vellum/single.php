@@ -79,6 +79,14 @@ get_header(); ?>
 																					the_field('workshop_time_to');
 																				endif; ?></p>
 						<?php endif; ?>
+
+						<?php if (get_field('location')) : ?>
+							<p>Location: <?php the_field('location'); ?></p>
+						<?php endif; ?>
+
+						<?php if (get_field('cost')) : ?>
+							<p>Cost: $<?php the_field('cost'); ?></p>
+						<?php endif; ?>
 						<hr>
 
 					</aside>
