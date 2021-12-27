@@ -40,14 +40,14 @@ get_header(); ?>
 						<div class="biography">
 							<h3>Bio</h3>
 							<?php if (get_field('photo')) : ?>
-								<img src="<?php the_field('photo'); ?>" alt="<?php the_field('name'); ?> bio">
+								<img src="<?php the_field('photo'); ?>" alt="<?php the_field('name'); ?> bio" loading="lazy" class="alignleft">
 							<?php endif; ?>
 							<?php if (get_field('bio')) : ?>
 								<p><?php the_field('bio'); ?></p>
 								<hr>
 							<?php endif; ?>
 						</div>
-						<h2>Details</h2>
+						<h3>Details</h3>
 						<ul>
 							<?php if (get_field('dates_from')) : ?>
 								<li>Date: <?php the_field('dates_from'); ?>
