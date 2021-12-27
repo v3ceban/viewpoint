@@ -47,7 +47,8 @@ get_header(); ?>
 						<h2>Details</h2>
 						<?php if (get_field('dates_from')) : ?>
 							<p>Date: <?php the_field('dates_from'); ?>
-								<?php if (get_field('dates_to')) : echo('to ') the_field('dates_to');
+								<?php if (get_field('dates_to')) : echo ('to ');
+									the_field('dates_to');
 								endif; ?></p>
 						<?php endif; ?>
 
