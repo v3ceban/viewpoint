@@ -33,21 +33,21 @@ get_header(); ?>
 					<!--Post Content-->
 
 					<aside>
-						<?php if (get_field('artists_name')) : ?>
-							<h2><?php the_field('artists_name'); ?></h2>
+						<?php if (get_field('name')) : ?>
+							<h2><?php the_field('name'); ?></h2>
 						<?php endif; ?>
 						<hr>
-						<?php if (get_field('artists_photo')) : ?>
-							<img src="<?php the_field('artists_photo'); ?>" alt="<?php the_field('artists_name'); ?> bio">
+						<?php if (get_field('photo')) : ?>
+							<img src="<?php the_field('photo'); ?>" alt="<?php the_field('name'); ?> bio">
 						<?php endif; ?>
-						<?php if (get_field('artists_bio')) : ?>
-							<p><?php the_field('artists_bio'); ?></p>
+						<?php if (get_field('bio')) : ?>
+							<p><?php the_field('bio'); ?></p>
 						<?php endif; ?>
 						<hr>
 						<h2>Details</h2>
-						<?php if (get_field('exhibit_dates_from')) : ?>
-							<p>Exhibit Dates: <?php the_field('exhibit_dates_from'); ?> -
-								<?php if (get_field('exhibit_dates_to')) : the_field('exhibit_dates_to');
+						<?php if (get_field('dates_from')) : ?>
+							<p>Exhibit Dates: <?php the_field('dates_from'); ?> -
+								<?php if (get_field('dates_to')) : the_field('dates_to');
 								endif; ?></p>
 						<?php endif; ?>
 
@@ -72,6 +72,8 @@ get_header(); ?>
 									the_field('artist_reception_time_to');
 								endif; ?></p>
 						<?php endif; ?>
+						<hr>
+
 					</aside>
 				</main>
 				<?php
