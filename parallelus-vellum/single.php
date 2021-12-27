@@ -46,8 +46,8 @@ get_header(); ?>
 						<hr>
 						<h2>Details</h2>
 						<?php if (get_field('dates_from')) : ?>
-							<p>Exhibit Dates: <?php the_field('dates_from'); ?> -
-								<?php if (get_field('dates_to')) : the_field('dates_to');
+							<p>Date: <?php the_field('dates_from'); ?>
+								<?php if (get_field('dates_to')) : echo('to ') the_field('dates_to');
 								endif; ?></p>
 						<?php endif; ?>
 
