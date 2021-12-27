@@ -8287,7 +8287,7 @@ section#sponsors div.owl-item > div p {
 
 /*Singles*/
 
-#singleAside h2.regLink {
+#singleAside .regLink {
 	text-transform: uppercase;
 	font-weight: 600;
 }

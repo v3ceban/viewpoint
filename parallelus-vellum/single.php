@@ -93,7 +93,7 @@ get_header(); ?>
 							<?php endif; ?>
 						</ul>
 						<hr>
-						<h2 class="regLink"><a href="#">Registration</a></h2>
+						<h3 class="regLink"><a href="#">Registration</a></h3>
 					</aside>
 				</main>
 				<?php
