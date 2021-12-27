@@ -26,8 +26,8 @@ get_header(); ?>
 					next_and_previous_post_navigation();
 				}
 				?>
-				<main id="theMainPostContent">
-					<div class="row-fluid">
+				<main id="theSinglePostContent">
+					<div>
 						<?php get_template_part('templates/post', get_post_format()); ?>
 					</div>
 					<!--Post Content-->

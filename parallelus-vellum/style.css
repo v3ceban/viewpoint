@@ -8313,3 +8313,9 @@ section#sponsors div.owl-item > div p {
 	margin: 0 0 24px 0;
 	padding: 0;
 }
+
+@media screen and (min-width: 770px) {
+	main#theSinglePostContent {
+		display: flex;
+	}
+}
