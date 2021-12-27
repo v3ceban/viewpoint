@@ -7975,10 +7975,15 @@ div.vc_gitem-animated-block {
 	background-color: #fff;
 }
 
+div.vc_gitem-animated-block > .vc_gitem-zone {
+	transition: all 0.1s ease;
+}
+
 div.vc_gitem-animated-block:hover > .vc_gitem-zone,
 div.vc_gitem-animated-block:focus > .vc_gitem-zone {
 	transform: scale(1.1);
 	opacity: 80%;
+	transition: all 0.2s ease;
 }
 
 /*Category page*/
