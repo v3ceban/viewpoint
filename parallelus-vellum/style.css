@@ -8324,5 +8324,6 @@ section#sponsors div.owl-item > div p {
 
 	#singleAside {
 		flex-basis: 40%;
+		padding-left: 20px;
 	}
 }
