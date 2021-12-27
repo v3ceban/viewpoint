@@ -75,7 +75,7 @@ get_header(); ?>
 						<?php endif; ?>
 
 						<?php if (get_field('workshop_time_from')) : ?>
-							<p>Time: <?php the_field('workshop_time_from'); ?><?php if (get_field('workshop_time_to') and get_field('workshop_time_to')) : echo ('to ');
+							<p>Time: <?php the_field('workshop_time_from'); ?><?php if (get_field('workshop_time_to') and get_field('workshop_time_to')) : echo (' to ');
 																					the_field('workshop_time_to');
 																				endif; ?></p>
 						<?php endif; ?>
