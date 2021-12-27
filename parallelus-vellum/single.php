@@ -35,17 +35,17 @@ get_header(); ?>
 					<aside>
 						<?php if (get_field('name')) : ?>
 							<h2><?php the_field('name'); ?></h2>
+							<hr>
 						<?php endif; ?>
-						<hr>
 						<div class="biography">
 							<?php if (get_field('photo')) : ?>
 								<img src="<?php the_field('photo'); ?>" alt="<?php the_field('name'); ?> bio">
 							<?php endif; ?>
 							<?php if (get_field('bio')) : ?>
 								<p><?php the_field('bio'); ?></p>
+								<hr>
 							<?php endif; ?>
 						</div>
-						<hr>
 						<h2>Details</h2>
 						<ul>
 							<?php if (get_field('dates_from')) : ?>
