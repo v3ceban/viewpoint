@@ -56,14 +56,20 @@ get_header(); ?>
 						<?php endif; ?>
 
 						<?php if (get_field('2nd_reception_date')) : ?>
-							<p>2nd Reception: <?php the_field('2nd_reception_date'); ?>
+							<p>2nd Reception: <?php the_field('2nd_reception_date'); ?>,
 								<?php if (get_field('2nd_reception_time_from')) : the_field('2nd_reception_time_from');
 								endif; ?> to <?php if (get_field('2nd_reception_time_to')) : the_field('2nd_reception_time_to');
 												endif; ?></p>
 						<?php endif; ?>
 
-						<p>Artist Reception: <?php if (get_field('gallery_space')) : the_field('gallery_space');
+						<?php if (get_field('artist_reception_date')) : ?>
+							<p>Artist Reception: <?php the_field('artist_reception_date'); ?>,
+								<?php if (get_field('
+artist_reception_time_from')) : the_field('
+artist_reception_time_from');
+								endif; ?> to <?php if (get_field('artist_reception_time_to')) : the_field('artist_reception_time_to');
 												endif; ?></p>
+						<?php endif; ?>
 					</aside>
 				</main>
 				<?php
