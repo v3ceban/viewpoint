@@ -73,6 +73,12 @@ get_header(); ?>
 									the_field('artist_reception_time_to');
 								endif; ?></p>
 						<?php endif; ?>
+
+						<?php if (get_field('workshop_time_from')) : ?>
+							<p>Time: <?php the_field('workshop_time_from'); ?><?php if (get_field('workshop_time_to') and get_field('workshop_time_to')) : echo (', ');
+																					the_field('workshop_time_to');
+																				endif; ?></p>
+						<?php endif; ?>
 						<hr>
 
 					</aside>
