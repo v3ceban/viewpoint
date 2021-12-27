@@ -40,7 +40,7 @@ get_header(); ?>
 						<div class="biography">
 							<h3>Bio</h3>
 							<?php if (get_field('photo')) : ?>
-								<img src="<?php the_field('photo'); ?>" alt="<?php the_field('name'); ?> bio" loading="lazy" class="alignleft">
+								<img src="<?php the_field('photo'); ?>" alt="<?php the_field('name'); ?> bio" loading="lazy" class="alignleft bioImage">
 							<?php endif; ?>
 							<?php if (get_field('bio')) : ?>
 								<p><?php the_field('bio'); ?></p>
