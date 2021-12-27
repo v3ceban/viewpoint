@@ -8297,3 +8297,14 @@ section#sponsors div.owl-item > div p {
 	margin: 6px 24px 0 0;
 	max-width: 176px;
 }
+
+#singleAside ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#singleAside ul li {
+	margin: 0 0 24px 0;
+	padding: 0;
+}
