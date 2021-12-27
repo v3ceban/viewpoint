@@ -36,12 +36,14 @@ get_header(); ?>
 						<?php if (get_field('artists_name')) : ?>
 							<h2><?php the_field('artists_name'); ?></h2>
 						<?php endif; ?>
-						<?php if (get_field('artists_bio')) : ?>
-							<p><?php the_field('artists_bio'); ?></p>
-						<?php endif; ?>
+						<hr>
 						<?php if (get_field('artists_photo')) : ?>
 							<img src="<?php the_field('artists_photo'); ?>" alt="<?php the_field('artists_name'); ?> bio">
 						<?php endif; ?>
+						<?php if (get_field('artists_bio')) : ?>
+							<p><?php the_field('artists_bio'); ?></p>
+						<?php endif; ?>
+						<hr>
 					</aside>
 				</main>
 				<?php
