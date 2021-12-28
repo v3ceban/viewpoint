@@ -21,7 +21,7 @@ get_header(); ?>
 							<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium_large') ?></a>
 							<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 							<?php if (get_field('dates_from')) : ?>
-								<p>Date: <?php the_field('dates_from'); ?>
+								<p class="dates">Dates: <?php the_field('dates_from'); ?>
 									<?php if (get_field('dates_to')) : echo ('to ');
 										the_field('dates_to');
 									endif; ?></p>

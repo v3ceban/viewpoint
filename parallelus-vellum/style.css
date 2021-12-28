@@ -8034,6 +8034,13 @@ h1.archive-title {
 	padding-bottom: 30px;
 }
 
+.cat-container .post p.dates {
+	font-weight: 600;
+	color: #811826;
+	padding-bottom: 0;
+	margin-bottom: 10px;
+}
+
 .cat-container .post p:empty {
 	margin: 0;
 	padding: 0;
