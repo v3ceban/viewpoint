@@ -22,7 +22,7 @@ get_header(); ?>
 							<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 							<?php if (get_field('dates_from') and get_field('dates_to')) : ?>
 								<p class="dates">Dates: <?php the_field('dates_from');
-														echo ('– ');
+														echo (' – ');
 														the_field('dates_to'); ?></p>
 							<?php elseif (get_field('dates_from')) : ?>
 								<p class="dates">Date: <?php the_field('dates_from'); ?></p>
