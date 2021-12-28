@@ -24,6 +24,8 @@ get_header(); ?>
 								<p class="dates">Dates: <?php the_field('dates_from');
 														echo ('– ');
 														the_field('dates_to'); ?></p>
+							<?php elseif (get_field('dates_from') and !isset(get_field('dates_to'))) : ?>
+								<p class="dates">Date: <?php the_field('dates_from'); ?></p>
 							<?php endif; ?>
 							<p><?php the_excerpt(); ?></p>
 							<div class="cat-footer">
