@@ -20,6 +20,12 @@ get_header(); ?>
 							<?php /* Featured image displays here (full, large, medium_large, medium, or thumbnail) */ ?>
 							<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium_large') ?></a>
 							<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+							<?php if (get_field('dates_from')) : ?>
+								<p>Date: <?php the_field('dates_from'); ?>
+									<?php if (get_field('dates_to')) : echo ('to ');
+										the_field('dates_to');
+									endif; ?></p>
+							<?php endif; ?>
 							<p><?php the_excerpt(); ?></p>
 							<div class="cat-footer">
 								<?php the_category(' ') ?>
@@ -29,7 +35,7 @@ get_header(); ?>
 					<?php endwhile; ?>
 				<?php else : ?>
 					<section id="not-found">
-						<h2>We're very sorry!</h2>
+						<h2>We're sorry!</h2>
 						<p>It seems that we don't have any current or upcoming events in this category.</p>
 						<p>Try searching for something else, or check out our Past Exhibits!</p>
 						<?php get_search_form(); ?>
