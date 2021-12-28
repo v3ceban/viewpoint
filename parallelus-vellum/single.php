@@ -90,7 +90,7 @@ get_header(); ?>
 
 							<?php if (get_field('cost')) : ?>
 								<li>Cost: $<?php the_field('cost'); ?></li>
-							<?php elseif (get_field('cost') === 0) : ?>
+							<?php elseif (get_field('cost') === '0') : ?>
 								<li>Free for everyone!</li>
 							<?php endif; ?>
 						</ul>
