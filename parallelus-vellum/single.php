@@ -93,6 +93,11 @@ get_header(); ?>
 							<?php elseif (get_field('cost') === '0') : ?>
 								<li>Free for everyone!</li>
 							<?php endif; ?>
+
+							<?php if (get_field('cost') && get_field('member_cost')) : ?>
+								<li>Non-Member Cost: $<?php the_field('cost'); ?></li>
+								<li>Member Cost: $<?php the_field('member_cost'); ?></li>
+							<?php endif; ?>
 						</ul>
 						<hr>
 						<h3 class="regLink"><a href="#">Registration</a></h3>
