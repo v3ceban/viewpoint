@@ -88,7 +88,7 @@ get_header(); ?>
 								<li>Location: <?php the_field('location'); ?></li>
 							<?php endif; ?>
 
-							<?php if (get_field('cost')) : ?>
+							<?php if (get_field('cost') && get_field('member_cost') == null) : ?>
 								<li>Cost: $<?php the_field('cost'); ?></li>
 							<?php elseif (get_field('cost') === '0') : ?>
 								<li>Free for everyone!</li>
