@@ -94,9 +94,9 @@ get_header(); ?>
 								<li>Free for everyone!</li>
 							<?php endif; ?>
 
-							<?php if (get_field('cost') && get_field('member_cost')) : ?>
+							<?php if (get_field('cost') && get_field('member_cost') === '0') : ?>
 								<li>Non-Member Cost: $<?php the_field('cost'); ?></li>
-								<li>Member Cost: $<?php the_field('member_cost'); ?></li>
+								<li>Member Cost: Free!</li>
 							<?php endif; ?>
 						</ul>
 						<hr>
