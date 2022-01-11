@@ -110,7 +110,7 @@ get_header(); ?>
 						<?php endif; ?>
 
 						<?php if (get_field('sales_link')) : ?>
-							<h3 class="regLink"><a href="<?php the_field('sales_link'); ?>">Online Gallery and Sales</a></h3>
+							<h3 class="regButton"><a href="<?php the_field('sales_link'); ?>">Online Gallery and Sales</a></h3>
 						<?php endif; ?>
 					</aside>
 				</main>
