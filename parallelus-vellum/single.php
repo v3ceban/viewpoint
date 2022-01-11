@@ -106,7 +106,9 @@ get_header(); ?>
 						</ul>
 						<hr>
 						<?php if (get_field('registration_link')) : ?>
-							<h3 class="regLink"><a href="<?php the_field('registration_link'); ?>">Registration</a></h3>
+							<a href="<?php the_field('registration_link'); ?>">
+								<h3 class="regButton">Register Here</h3>
+							</a>
 						<?php endif; ?>
 
 						<?php if (get_field('sales_link')) : ?>
