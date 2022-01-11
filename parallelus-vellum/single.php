@@ -105,9 +105,9 @@ get_header(); ?>
 							<?php endif; ?>
 						</ul>
 						<hr>
-						<h3 class="regLink"><a href="<?php if (get_field('registration_link')) : ?>
-								<?php the_field('registration_link'); ?>
-							<?php endif; ?>">Registration</a></h3>
+						<?php if (get_field('registration_link')) : ?>
+							<h3 class="regLink"><a href="<?php the_field('registration_link'); ?>">Registration</a></h3>
+						<?php endif; ?>
 					</aside>
 				</main>
 				<?php
