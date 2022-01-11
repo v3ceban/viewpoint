@@ -108,6 +108,10 @@ get_header(); ?>
 						<?php if (get_field('registration_link')) : ?>
 							<h3 class="regLink"><a href="<?php the_field('registration_link'); ?>">Registration</a></h3>
 						<?php endif; ?>
+
+						<?php if (get_field('sales_link')) : ?>
+							<h3 class="regLink"><a href="<?php the_field('sales_link'); ?>">Online Gallery and Sales</a></h3>
+						<?php endif; ?>
 					</aside>
 				</main>
 				<?php
