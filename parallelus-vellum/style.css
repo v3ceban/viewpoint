@@ -8301,6 +8301,20 @@ section#sponsors div.owl-item > div p {
 }
 
 #singleAside .regButton {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px;
+	background-color: #811826;
+}
+
+#singleAside .regButton > a {
+	color: white !important;
+}
+
+#singleAside .regButton:hover,
+#singleAside .regButton:active,
+#singleAside .regButton:focus {
+	background-color: #992535;
 }
 
 #singleAside h3 {
