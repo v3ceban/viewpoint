@@ -8338,3 +8338,16 @@ section#sponsors div.owl-item > div p {
 		padding-left: 20px;
 	}
 }
+
+/*Membership*/
+.vc_btn3.vc_btn3-color-info.vc_btn3-style-modern {
+	background-color: #811826 !important;
+	border-color: #811826 !important;
+}
+
+.vc_btn3.vc_btn3-color-info.vc_btn3-style-modern:hover,
+.vc_btn3.vc_btn3-color-info.vc_btn3-style-modern:focus,
+.vc_btn3.vc_btn3-color-info.vc_btn3-style-modern:active {
+	background-color: #811826 !important;
+	border-color: #811826 !important;
+}
