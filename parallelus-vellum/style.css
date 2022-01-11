@@ -8321,6 +8321,10 @@ section#sponsors div.owl-item > div p {
 	padding: 0;
 }
 
+.post-nav-info-wrapper .post-nav-info .entry-title {
+	color: #e86e0b;
+}
+
 @media screen and (min-width: 770px) {
 	main#theSinglePostContent {
 		display: flex;
