@@ -8090,6 +8090,7 @@ h1.archive-title {
 	width: 100%;
 	grid-column: 1/3;
 	display: flex;
+	justify-content: space-between;
 }
 
 .cat-widget-area h3 {
