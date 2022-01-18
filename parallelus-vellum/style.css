@@ -8387,14 +8387,14 @@ section#sponsors div.owl-item > div p {
 	background-image: none;
 }
 
-li.vc_tta-tab a,
+.vc_tta-tab a,
 h4.vc_tta-panel-title a {
 	background-color: #811826 !important;
 	border: none !important;
 	background-image: none !important;
 }
 
-li.vc_active a {
+.vc_active a {
 	background-color: #992535 !important;
 	color: #fff !important;
 }
