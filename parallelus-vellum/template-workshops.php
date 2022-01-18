@@ -35,7 +35,7 @@ get_header(); ?>
                                 <p class="dates">Date: <?php the_field('dates_from'); ?></p>
                             <?php endif; ?>
                             <?php if (get_field('name')) : ?>
-                                <p class="dates"><?php the_field('name'); ?></p>
+                                <p class="dates">Instructor: <?php the_field('name'); ?></p>
                             <?php endif; ?>
                             <p><?php the_excerpt(); ?></p>
                             <div class="cat-footer">
