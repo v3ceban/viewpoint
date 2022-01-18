@@ -8409,3 +8409,7 @@ li.vc_active a {
 	border: none !important;
 	background: none !important;
 }
+
+a.data-vc-accordion {
+	color: #fff !important;
+}
