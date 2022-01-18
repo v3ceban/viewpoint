@@ -7936,6 +7936,12 @@ aside.widget.static-block {
 	padding-right: 17.5px;
 }
 
+/*General Styles*/
+
+#page {
+	background-color: #878787 !important;
+}
+
 /*Homepage*/
 
 .vc_gitem_row {
