@@ -8376,7 +8376,7 @@ section#sponsors div.owl-item > div p {
 /*Membership*/
 .vc_btn3.vc_btn3-color-info.vc_btn3-style-modern {
 	background-color: #811826;
-	border-color: #811826;
+	border: none !important;
 	background-image: none;
 }
 
@@ -8384,6 +8384,11 @@ section#sponsors div.owl-item > div p {
 .vc_btn3.vc_btn3-color-info.vc_btn3-style-modern:focus,
 .vc_btn3.vc_btn3-color-info.vc_btn3-style-modern:active {
 	background-color: #992535;
-	border-color: #992535;
+	background-image: none;
+}
+
+.vc_tta-color-orange.vc_tta-style-modern .vc_tta-tab > a {
+	background-color: #811826;
+	border: none !important;
 	background-image: none;
 }
