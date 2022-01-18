@@ -8404,7 +8404,8 @@ li.vc_active a {
 	background-image: none !important;
 }
 
-.vc_tta-color-orange.vc_tta-style-modern .vc_tta-panel.vc_active .vc_tta-panel-heading {
+.vc_tta-color-orange.vc_tta-style-modern .vc_tta-panel.vc_active .vc_tta-panel-heading,
+.vc_tta-color-orange.vc_tta-style-modern .vc_tta-panel .vc_tta-panel-heading {
 	border: none !important;
 	background: none !important;
 }
