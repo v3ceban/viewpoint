@@ -42,8 +42,8 @@ get_header(); ?>
                         </div><?php /* end post class div */ ?>
                     <?php endwhile; ?>
                     <div class="navigation">
-                        <div class="alignleft"><?php previous_posts_link('&laquo; Previous Events') ?></div>
-                        <div class="alignrigth"><?php next_posts_link('Future Events &raquo;') ?></div>
+                        <div class="prev"><?php previous_posts_link('&laquo; Previous Events') ?></div>
+                        <div class="future"><?php next_posts_link('Future Events &raquo;') ?></div>
                     </div>
                 <?php else : ?>
                     <section id="not-found">
