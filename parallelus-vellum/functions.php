@@ -330,3 +330,18 @@ function wpb_custom_query($query)
 
 // Hook our custom query function to the pre_get_posts 
 add_action('pre_get_posts', 'wpb_custom_query');
+
+
+function setup_future_hook()
+{
+	// Replace native future_post function with replacement
+	remove_action('future_show', '_future_post_hook');
+	add_action('future_show', 'publish_future_post_now');
+}
+
+function publish_future_post_now($id)
+{
+	wp_publish_post($id);
+}
+
+add_action('init', 'setup_future_hook');
