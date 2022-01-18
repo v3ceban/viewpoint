@@ -8405,4 +8405,6 @@ li.vc_active a {
 }
 
 .vc_tta-panel-heading {
+	border: none !important;
+	background-color: none !important;
 }
