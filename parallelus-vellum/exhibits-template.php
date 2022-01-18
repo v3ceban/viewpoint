@@ -13,6 +13,12 @@ get_header(); ?>
             <h1 class="archive-title"><?php echo single_cat_title('', false); ?></h1>
         </header><!-- .archive-header -->
 
+        <?php /* Categorization. For proper work make sure to set max posts per page in reading section to 1 (or less than you're using) */ ?>
+        <?php /* if intended to use on a static page set to 'page' instead. */ ?>
+        <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
+        <?php /* Set cat= to the category number to filter posts by category, set posts_per_page=-1 to display all or x to display x, set paged to fix pagination*/ ?>
+        <?php query_posts('cat=28&posts_per_page=-1&paged=' . $paged); ?>
+
         <?php /* Main Content loop that gets content for the page */ ?>
         <main class="main-container">
             <section class="cat-container">
