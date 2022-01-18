@@ -8388,7 +8388,7 @@ section#sponsors div.owl-item > div p {
 }
 
 .vc_tta-color-orange.vc_tta-style-modern .vc_tta-tab > a {
-	background-color: #811826;
+	background-color: #811826 !important;
 	border: none !important;
-	background-image: none;
+	background-image: none !important;
 }
