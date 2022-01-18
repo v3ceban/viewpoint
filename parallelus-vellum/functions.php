@@ -330,3 +330,14 @@ function wpb_custom_query($query)
 
 // Hook our custom query function to the pre_get_posts 
 add_action('pre_get_posts', 'wpb_custom_query');
+
+//Future Posts to Publish
+function onetarek_prevent_future_type( $post_data ) {
+	if ( $post_data['post_status'] == 'future' &amp;&amp; $post_data['post_type'] == 'post' )#Here I am checking post_type='post' , you may use different post type and if you want it for all post type then remove "&amp;&amp; $post_data['post_type'] == 'post'"
+	{
+	$post_data['post_status'] = 'publish';
+	}
+	return $post_data;
+	}
+	add_filter('wp_insert_post_data', 'onetarek_prevent_future_type');
+	remove_action('future_post', '_future_post_hook');
