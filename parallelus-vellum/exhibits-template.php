@@ -1,7 +1,7 @@
 <?php global $wp_query;
 /**
- * @package WordPress`
- * Template Name: Basic Page Template (editable)
+ * @package WordPress
+ * Template Name: Exhibits Page
  */
 
 get_header(); ?>
@@ -42,8 +42,8 @@ get_header(); ?>
                         </div><?php /* end post class div */ ?>
                     <?php endwhile; ?>
                     <div class="navigation">
-                        <div class="alignleft"><?php next_posts_link('&laquo; Older Posts') ?></div>
-                        <div class="alignright"><?php previous_posts_link('Newer Posts &raquo;') ?></div>
+                        <div class="alignrigth"><?php next_posts_link('Future Events &raquo;') ?></div>
+                        <div class="alignleft"><?php previous_posts_link('&laquo; Previous Events') ?></div>
                     </div>
                 <?php else : ?>
                     <section id="not-found">
