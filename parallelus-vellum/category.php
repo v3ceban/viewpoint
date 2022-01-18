@@ -12,9 +12,6 @@ get_header(); ?>
 			<h1 class="archive-title"><?php echo single_cat_title('', false); ?></h1>
 		</header><!-- .archive-header -->
 
-		<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-		<?php query_posts('posts_per_page=-1&paged=' . $paged); ?>
-
 		<?php /* Main Content loop that gets content for the page */ ?>
 		<main class="main-container">
 			<section class="cat-container">
