@@ -8398,3 +8398,8 @@ li.vc_active a {
 	background-color: #992535 !important;
 	color: #fff !important;
 }
+
+.vc_tta.vc_tta-style-modern .vc_tta-panel-body,
+.vc_tta.vc_tta-style-modern .vc_tta-panel-heading {
+	background-image: none;
+}
