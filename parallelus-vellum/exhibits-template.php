@@ -41,6 +41,10 @@ get_header(); ?>
                             </div>
                         </div><?php /* end post class div */ ?>
                     <?php endwhile; ?>
+                    <div class="navigation">
+                        <div class="alignleft"><?php next_posts_link('&laquo; Older Posts') ?></div>
+                        <div class="alignright"><?php previous_posts_link('Newer Posts &raquo;') ?></div>
+                    </div>
                 <?php else : ?>
                     <section id="not-found">
                         <h2>We're sorry!</h2>
@@ -58,10 +62,6 @@ get_header(); ?>
                     <h3>Add an empty widget in this widget area to hide this</h3>
                 <?php endif; ?>
             </aside>
-            <div class="navigation">
-                <div class="alignleft"><?php next_posts_link('&laquo; Older Posts') ?></div>
-                <div class="alignright"><?php previous_posts_link('Newer Posts &raquo;') ?></div>
-            </div>
         </main>
     </div><!-- #content -->
 </section><!-- #primary -->
