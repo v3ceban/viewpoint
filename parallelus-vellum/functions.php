@@ -329,7 +329,7 @@ function wpb_custom_query($query)
 
 		// Set parameters to modify the query
 		$query->set('orderby', 'date');
-		$query->set('order', 'ASC');
+		$query->set('order', 'DESC');
 	}
 }
 
