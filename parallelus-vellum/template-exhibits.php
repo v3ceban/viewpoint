@@ -35,9 +35,9 @@ get_header(); ?>
                                 <p class="dates">Date: <?php the_field('dates_from'); ?></p>
                             <?php endif; ?>
                             <?php if (get_field('2nd_reception_date')) : ?>
-                                <p class="dates">2nd Satruday Opening: <?php the_field('2nd_reception_date'); ?><?php if (get_field('2nd_reception_time_from')) : echo (', ');
-                                                                                                                    the_field('2nd_reception_time_from');
-                                                                                                                endif; ?>
+                                <p class="dates">2nd Saturday Reception: <?php the_field('2nd_reception_date'); ?><?php if (get_field('2nd_reception_time_from')) : echo (', ');
+                                                                                                                        the_field('2nd_reception_time_from');
+                                                                                                                    endif; ?>
                                     <?php if (get_field('2nd_reception_time_to') and get_field('2nd_reception_time_from')) : echo ('to ');
                                         the_field('2nd_reception_time_to');
                                     endif; ?></p>
