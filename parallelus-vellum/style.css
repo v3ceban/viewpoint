@@ -8387,13 +8387,13 @@ section#sponsors div.owl-item > div p {
 	background-image: none;
 }
 
-.vc_tta-color-orange.vc_tta-style-modern .vc_tta-tab > a {
+li.vc_tta-tab a {
 	background-color: #811826 !important;
 	border: none !important;
 	background-image: none !important;
 }
 
-.vc_tta-color-orange.vc_tta-style-modern .vc_tta-tab.vc_active > a {
+li.vc_active a {
 	background-color: #992535 !important;
 	color: #fff !important;
 }
