@@ -7938,6 +7938,10 @@ aside.widget.static-block {
 
 /*General Styles*/
 
+body {
+	background-color: #444444 !important;
+}
+
 #page {
 	background-color: #444444 !important;
 }
