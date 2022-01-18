@@ -325,12 +325,11 @@ function wpb_custom_query($query)
 {
 
 	// Make sure we only modify the main query on the homepage  
-	if ($query->is_main_query()) {
+	if ($query->is_main_query() && !is_admin() && $query->is_home()) {
 
 		// Set parameters to modify the query
 		$query->set('orderby', 'date');
-		$query->set('order', 'DESC');
-		$query->set('suppress_filters', 'true');
+		$query->set('order', 'ASC');
 	}
 }
 
