@@ -8089,6 +8089,7 @@ h1.archive-title {
 .cat-container .navigation {
 	width: 100%;
 	grid-column: 1/3;
+	display: flex;
 }
 
 .cat-widget-area h3 {
