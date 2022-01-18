@@ -323,14 +323,9 @@ add_filter('excerpt_length', 'tn_custom_excerpt_length', 999);
 //function to modify default WordPress query
 function wpb_custom_query($query)
 {
-
-	// Make sure we only modify the main query on the homepage  
-	if ($query->is_main_query() && !is_admin() && $query->is_home()) {
-
-		// Set parameters to modify the query
-		$query->set('orderby', 'date');
-		$query->set('order', 'DESC');
-	}
+	// Set parameters to modify the query
+	$query->set('orderby', 'date');
+	$query->set('order', 'ASC');
 }
 
 // Hook our custom query function to the pre_get_posts 
