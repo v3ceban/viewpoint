@@ -8010,9 +8010,10 @@ h1.archive-title {
 }
 
 .cat-container .post a:nth-of-type(1) {
-	display: block;
+	display: flex;
 	overflow: hidden;
 	max-height: 278px;
+	align-items: center;
 }
 
 .cat-container .post a:nth-of-type(1) > img {
