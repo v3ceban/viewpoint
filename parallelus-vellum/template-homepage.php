@@ -71,7 +71,7 @@ get_header(); ?>
                 <h3>Add an empty widget in this widget area to hide this</h3>
             <?php endif; ?>
         </aside>
-        <section class="vc_section_wrapper">
+        <section class="vc_section_wrapper homepage-last-CTA">
             <div class="wpb_row  row-fluid ">
                 <div class="wpb_column vc_column_container vc_col-sm-12">
                     <div class="vc_column-inner">
