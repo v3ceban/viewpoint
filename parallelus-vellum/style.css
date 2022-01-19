@@ -7958,7 +7958,7 @@ body {
 .home-page-posts .post a:nth-of-type(1) {
 	display: flex;
 	overflow: hidden;
-	max-height: 278px;
+	max-height: 400px;
 	align-items: center;
 }
 
