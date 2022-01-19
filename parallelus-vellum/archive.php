@@ -6,19 +6,10 @@
 get_header(); ?>
 
 <section id="primary" class="site-content">
-	<div id="content" role="main">
+	<div id="content" class="cat-content-container" role="main">
+
 		<header class="archive-header">
-			<h1 class="archive-title"><?php
-										if (is_day()) :
-											printf(__('Archives: %s', 'framework'), get_the_date());
-										elseif (is_month()) :
-											printf(__('Archives: %s', 'framework'), get_the_date(_x('F Y', 'monthly archives date format', 'framework')));
-										elseif (is_year()) :
-											printf(__('Archives: %s', 'framework'), get_the_date(_x('Y', 'yearly archives date format', 'framework')));
-										else :
-											_e('Archives', 'framework');
-										endif;
-										?></h1>
+			<h1 class="archive-title"><?php echo single_cat_title('', false); ?></h1>
 		</header><!-- .archive-header -->
 
 		<?php /* Main Content loop that gets content for the page */ ?>
@@ -27,8 +18,15 @@ get_header(); ?>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 							<?php /* Featured image displays here (full, large, medium_large, medium, or thumbnail) */ ?>
-							<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium_large') ?></a>
-							<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+							<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium_large') ?></a>
+							<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+							<?php if (get_field('dates_from') and get_field('dates_to')) : ?>
+								<p class="dates">Dates: <?php the_field('dates_from');
+														echo (' – ');
+														the_field('dates_to'); ?></p>
+							<?php elseif (get_field('dates_from')) : ?>
+								<p class="dates">Date: <?php the_field('dates_from'); ?></p>
+							<?php endif; ?>
 							<p><?php the_excerpt(); ?></p>
 							<div class="cat-footer">
 								<?php the_category(' ') ?>
@@ -36,10 +34,15 @@ get_header(); ?>
 							</div>
 						</div><?php /* end post class div */ ?>
 					<?php endwhile; ?>
+					<div class="navigation">
+						<div class="prev"><?php previous_posts_link('&laquo; Previous Events') ?></div>
+						<div class="future"><?php next_posts_link('Future Events &raquo;') ?></div>
+					</div>
 				<?php else : ?>
 					<section id="not-found">
-						<h2>Not Found</h2>
-						<p>Sorry, but you are looking for something that isn't here.</p>
+						<h2>We're sorry!</h2>
+						<p>It seems that we don't have any current or upcoming events in this category.</p>
+						<p>Try searching for something else, or check out our Past Exhibits!</p>
 						<?php get_search_form(); ?>
 					</section>
 				<?php endif;
@@ -52,6 +55,7 @@ get_header(); ?>
 					<h3>Add an empty widget in this widget area to hide this</h3>
 				<?php endif; ?>
 			</aside>
+		</main>
 	</div><!-- #content -->
 </section><!-- #primary -->
 
