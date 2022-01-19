@@ -8415,3 +8415,9 @@ li.vc_active a {
 .vc_tta-color-orange.vc_tta-style-modern .vc_tta-panel.vc_active .vc_tta-panel-title > a {
 	color: #fff !important;
 }
+
+/*Calendar*/
+
+.wpfc-calendar-wrapper .ui-widget-content {
+	background: ;
+}
