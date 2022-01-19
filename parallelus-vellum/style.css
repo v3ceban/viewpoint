@@ -8423,4 +8423,6 @@ li.vc_active a {
 }
 
 .wpfc-calendar-wrapper .ui-widget-header {
+	background: #811826;
+	color: white;
 }
