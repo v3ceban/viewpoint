@@ -8428,6 +8428,6 @@ li.vc_active a {
 	color: white;
 }
 
-.ui-state-highlight {
-	border: none;
+.wpfc-calendar-wrapper .ui-state-highlight {
+	border: none !important;
 }
