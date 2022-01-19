@@ -1,7 +1,7 @@
-<?php
-
+<?php global $wp_query;
 /**
- * The template for displaying pages.
+ * @package WordPress
+ * Template Name: Home Page
  */
 
 get_header(); ?>
