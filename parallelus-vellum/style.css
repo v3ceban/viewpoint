@@ -7948,6 +7948,13 @@ body {
 
 /*Homepage*/
 
+#content.home-page-wrapper {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: auto auto;
+	gap: 10px;
+}
+
 .vc_gitem_row {
 	background: #2a2a2a;
 	color: #ddd;

@@ -7,7 +7,7 @@
 get_header(); ?>
 
 <div id="primary" class="site-content">
-    <div id="content" role="main">
+    <div id="content" class="home-page-wrapper" role="main">
         <main class="home-main-container">
             <section class="home-page-content">
                 <?php /* Loop for page content */ ?>
