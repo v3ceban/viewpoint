@@ -23,9 +23,9 @@ get_header(); ?>
             <?php /* Categorization. For proper work make sure to set max posts per page in reading section to 1 (or less than you're using) */ ?>
             <?php /* Set cat= to the category number to filter posts by category, set posts_per_page=-1 to display all or x to display x*/ ?>
             <?php query_posts('cat=28,-33&posts_per_page=2'); ?>
-            <h2>CURRENT EXHIBITS</h2>
             <?php /* Loop for posts */ ?>
             <section class="home-page-posts">
+                <h2>CURRENT EXHIBITS</h2>
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                         <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
                             <?php /* Featured image displays here (full, large, medium_large, medium, or thumbnail) */ ?>
