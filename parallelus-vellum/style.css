@@ -8427,3 +8427,7 @@ li.vc_active a {
 	background: #811826;
 	color: white;
 }
+
+.ui-state-highlight {
+	border: none;
+}
