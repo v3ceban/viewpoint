@@ -71,17 +71,26 @@ get_header(); ?>
                 <h3>Add an empty widget in this widget area to hide this</h3>
             <?php endif; ?>
         </aside>
-        <section class="vc_cta3-container">
-            <div class="vc_general vc_cta3 vc_cta3-style-flat vc_cta3-shape-square vc_cta3-align-center vc_cta3-color-black vc_cta3-icon-size-md">
-                <div class="vc_cta3_content-container">
-                    <div class="vc_cta3-content">
-                        <header class="vc_cta3-content-header"></header>
-                        <h2 style="text-align: center;">Support Us: <span style="color: #f8c850;">DONATE TODAY!</span></h2>
+        <section class="vc_section_wrapper">
+            <div class="wpb_row  row-fluid ">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper">
+                            <section class="vc_cta3-container">
+                                <div class="vc_general vc_cta3 vc_cta3-style-flat vc_cta3-shape-square vc_cta3-align-center vc_cta3-color-black vc_cta3-icon-size-md">
+                                    <div class="vc_cta3_content-container">
+                                        <div class="vc_cta3-content">
+                                            <header class="vc_cta3-content-header"></header>
+                                            <h2 style="text-align: center;">Support Us: <span style="color: #f8c850;">DONATE TODAY!</span></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-
     </div><!-- #content -->
 </div><!-- #primary -->
 
