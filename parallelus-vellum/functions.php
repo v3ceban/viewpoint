@@ -307,6 +307,21 @@ function basic_widget_init()
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	));
+
+	register_sidebar(array(
+		//name for the widget area
+		'name' => __('Homepage aside', 'basic'),
+		//id for the dynamic_sidebar('primary-widget-area') snippet
+		'id' => 'home-aside-area',
+		//description for the widget area
+		'description' => __('Homepage Aside', 'basic'),
+		//tag for each widget container
+		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</div>',
+		//tag for each widget title
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	));
 }
 
 add_action('widgets_init', 'basic_widget_init');
