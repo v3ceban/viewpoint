@@ -8419,10 +8419,11 @@ li.vc_active a {
 /*Calendar*/
 
 .wpfc-calendar-wrapper .ui-widget-content {
-	background: #ebebeb;
+	background: white;
 }
 
-.wpfc-calendar-wrapper .ui-widget-header {
+.wpfc-calendar-wrapper .ui-widget-header,
+.wpfc-calendar-wrapper .fc td.fc-today {
 	background: #811826;
 	color: white;
 }
