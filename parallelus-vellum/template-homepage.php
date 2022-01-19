@@ -47,7 +47,7 @@ get_header(); ?>
                                     endif; ?></p>
                             <?php endif; ?>
                             <p><?php the_excerpt(); ?></p>
-                            <div class="cat-footer">
+                            <div class="post-footer">
                                 <?php the_category(' ') ?>
                                 <a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More <i class="fas fa-chevron-right"></i></a>
                             </div>

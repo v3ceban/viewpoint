@@ -7948,6 +7948,91 @@ body {
 
 /*Homepage*/
 
+.home-page-posts .post {
+	background-color: #fff;
+	margin-bottom: 55px;
+	position: relative;
+	max-width: 768px;
+}
+
+.home-page-posts .post a:nth-of-type(1) {
+	display: flex;
+	overflow: hidden;
+	max-height: 278px;
+	align-items: center;
+}
+
+.home-page-posts .post a:nth-of-type(1) > img {
+	transition: all 0.1s ease;
+	width: 100%;
+}
+
+.home-page-posts .post a:nth-of-type(1):hover > img,
+.home-page-posts .post a:nth-of-type(1):focus > img {
+	opacity: 80%;
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+
+.home-page-posts .post h2 {
+	margin: 30px 30px 15px 30px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.home-page-posts .post h2 a {
+	color: #393939;
+}
+
+.home-page-posts .post h2 a:hover {
+	color: #f8c850;
+}
+
+.home-page-posts .post p {
+	margin: 0px 30px 0 30px;
+	padding-bottom: 30px;
+}
+
+.home-page-posts .post p.dates {
+	font-weight: bold;
+	color: #811826;
+	padding-bottom: 0;
+	margin-bottom: 10px;
+}
+
+.home-page-posts .post p:empty {
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+
+.home-page-posts .post-footer {
+	box-sizing: border-box;
+	padding: 10px 30px;
+	background: #efefef;
+	color: #999;
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.home-page-posts .post-footer a {
+	color: #999;
+	font-weight: bold;
+}
+
+.home-page-posts .post-footer a:hover {
+	color: #666;
+}
+
+.home-page-posts .post-footer a[href^="https://www.viewpointphotoartcenter.org/category/current/"]
+{
+	display: none;
+}
+
 @media screen and (min-width: 768px) {
 	#content.home-page-wrapper {
 		display: grid;
