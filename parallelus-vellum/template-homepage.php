@@ -24,7 +24,7 @@ get_header(); ?>
         <?php /* Loop for posts */ ?>
         <h2>CURRENT EXHIBITS</h2>
         <main class="main-container">
-            <section class="cat-container">
+            <section class="home-container">
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                         <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
                             <?php /* Featured image displays here (full, large, medium_large, medium, or thumbnail) */ ?>
