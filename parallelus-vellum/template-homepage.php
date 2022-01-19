@@ -63,6 +63,13 @@ get_header(); ?>
                 wp_reset_query(); ?>
             </section>
             <?php /* The loop ends here */ ?>
+            <aside class="cat-widget-area">
+                <?php if (!dynamic_sidebar('cat-aside-area')) : ?>
+                    <?php /* Footer content if widgets are not being used */ ?>
+                    <h3>Add an empty widget in this widget area to hide this</h3>
+                <?php endif; ?>
+            </aside>
+        </main>
 
     </div><!-- #content -->
 </div><!-- #primary -->
