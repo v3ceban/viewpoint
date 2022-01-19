@@ -8,22 +8,21 @@ get_header(); ?>
 
 <div id="primary" class="site-content">
     <div id="content" role="main">
-        <section class="home-page-content">
-            <?php /* Loop for page content */ ?>
-            <?php while (have_posts()) : the_post(); ?>
-
-                <?php get_template_part('templates/page'); ?>
-                <?php comments_template('', true); ?>
-
-            <?php endwhile; ?>
-            <?php /* End of the page content loop */ ?>
-        </section>
-
-        <?php /* Categorization. For proper work make sure to set max posts per page in reading section to 1 (or less than you're using) */ ?>
-        <?php /* Set cat= to the category number to filter posts by category, set posts_per_page=-1 to display all or x to display x*/ ?>
-        <?php query_posts('cat=28,-33&posts_per_page=2'); ?>
-
         <main class="home-main-container">
+            <section class="home-page-content">
+                <?php /* Loop for page content */ ?>
+                <?php while (have_posts()) : the_post(); ?>
+
+                    <?php get_template_part('templates/page'); ?>
+                    <?php comments_template('', true); ?>
+
+                <?php endwhile; ?>
+                <?php /* End of the page content loop */ ?>
+            </section>
+
+            <?php /* Categorization. For proper work make sure to set max posts per page in reading section to 1 (or less than you're using) */ ?>
+            <?php /* Set cat= to the category number to filter posts by category, set posts_per_page=-1 to display all or x to display x*/ ?>
+            <?php query_posts('cat=28,-33&posts_per_page=2'); ?>
             <h2>CURRENT EXHIBITS</h2>
             <?php /* Loop for posts */ ?>
             <section class="home-page-posts">
