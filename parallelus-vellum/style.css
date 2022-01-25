@@ -8439,7 +8439,7 @@ section#sponsors div.owl-item > div p {
 }
 
 .owl-carousel .owl-item img {
-	display: block;
+	display: block !important;
 	max-height: 150px;
 }
 
