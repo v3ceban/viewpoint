@@ -8438,6 +8438,11 @@ section#sponsors div.owl-item > div p {
 	text-align: center;
 }
 
+.owl-carousel .owl-item img {
+	display: block;
+	max-height: 150px;
+}
+
 /*Singles*/
 
 #singleAside .regLink {
