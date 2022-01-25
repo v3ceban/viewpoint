@@ -8443,9 +8443,13 @@ section#sponsors div.owl-item > div p {
 	text-align: center;
 }
 
+.owl-carousel .owl-item {
+	opacity: 0.5;
+	margin: 0 40px;
+}
+
 .owl-carousel .owl-item img {
 	display: block !important;
-	max-height: 150px;
 }
 
 /*Singles*/
