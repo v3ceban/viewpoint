@@ -7938,17 +7938,18 @@ aside.widget.static-block {
 
 /*General Styles*/
 
-body {
-	background-color: #575757 !important;
-}
-
+body,
 #page {
-	background-color: #575757 !important;
+	background-color: #878787 !important;
 }
 
 .cat-container .post p,
 .home-page-posts .post p {
 	color: #666;
+}
+
+hr {
+	background-color: #d0d0d0;
 }
 
 /*Homepage*/
