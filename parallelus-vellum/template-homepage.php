@@ -81,7 +81,7 @@ get_header(); ?>
                                     <div class="vc_cta3_content-container">
                                         <div class="vc_cta3-content">
                                             <header class="vc_cta3-content-header"></header>
-                                            <h2 style="text-align: center;">Support Us: <span style="color: #f8c850;">DONATE TODAY!</span></h2>
+                                            <h2 style="text-align: center;">Support Us: <span style="color: #f8c850; -webkit-text-stroke: 0.005em rgba(221, 221, 221, 0.5)">DONATE TODAY!</span></h2>
                                         </div>
                                     </div>
                                 </div>
