@@ -8222,7 +8222,8 @@ h1.archive-title {
 }
 
 .cat-widget-area h3 {
-	color: #ddd;
+	color: inherit;
+	font-weight: bold;
 	margin-bottom: 15px;
 }
 
