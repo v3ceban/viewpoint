@@ -20,7 +20,7 @@ get_header(); ?>
         <?php query_posts('cat=28,-33&posts_per_page=10&paged=' . $paged); ?>
 
         <?php /* Main Content loop that gets content for the page */ ?>
-        <h1>Exhibits</h1>
+        <h1 class="archive-title">Exhibits</h1>
         <main class="main-container">
             <section class="cat-container">
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
