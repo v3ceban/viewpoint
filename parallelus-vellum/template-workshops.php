@@ -8,19 +8,19 @@ get_header(); ?>
 
 <section id="primary" class="site-content">
     <div id="content" class="cat-content-container" role="main">
-
-        <header class="archive-header">
-            <h1 class="archive-title"><?php echo single_cat_title('', false); ?></h1>
-        </header><!-- .archive-header -->
-
         <?php /* Categorization. For proper work make sure to set max posts per page in reading section to 1 (or less than you're using) */ ?>
         <?php /* if intended to use on a static page set to 'page' instead. */ ?>
         <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
         <?php /* Set cat= to the category number to filter posts by category, set posts_per_page=-1 to display all or x to display x, set paged to fix pagination*/ ?>
         <?php query_posts('cat=4,-33&posts_per_page=10&paged=' . $paged); ?>
 
+        <header class="cat-header">
+            <h1 class="archive-title">Workshops</h1>
+            <img src="https://www.viewpointphotoartcenter.org/wp-content/uploads/2022/02/workshops.jpg" alt="Exhibits Hero-image">
+            <p>Portfolio Member Photo Credit (l/r): Robert Chaponot | Cecilia Clark | Larry Coleman</p>
+        </header>
+
         <?php /* Main Content loop that gets content for the page */ ?>
-        <h1 class="archive-title">Workshops</h1>
         <main class="main-container">
             <section class="cat-container">
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
