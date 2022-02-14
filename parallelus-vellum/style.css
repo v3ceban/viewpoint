@@ -8123,7 +8123,7 @@ div.vc_gitem-animated-block:focus > .vc_gitem-zone {
 	transition: all 0.2s ease;
 }
 
-/*Category page*/
+/*Category pages, Workshops and Exhibits*/
 
 h1.archive-title {
 	text-transform: uppercase;
@@ -8272,6 +8272,15 @@ h1.archive-title {
 		gap: 20px;
 		align-items: stretch;
 	}
+}
+
+.cat-header > img,
+.cat-header > p {
+	width: 100%;
+}
+
+.cat-header > p {
+	text-align: right;
 }
 
 /*Footer styles*/
