@@ -9,7 +9,7 @@ get_header(); ?>
 <div id="primary" class="site-content">
     <div id="content" class="home-page-wrapper" role="main">
         <main>
-            <?php woocommerce_product_filter_products(); ?>
+            <?php woocommerce_product_search_filter_attribute(); ?>
         </main>
     </div><!-- #content -->
 </div><!-- #primary -->
