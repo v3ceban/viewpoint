@@ -1,7 +1,7 @@
 <?php global $wp_query;
 /**
  * @package WordPress
- * Template Name: Home Page
+ * Template Name: Test Page
  */
 
 get_header(); ?>
