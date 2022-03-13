@@ -8583,7 +8583,7 @@ li.vc_active a {
 #shop-landing-page > .vc_column-inner > .wpb_wrapper {
 	display: grid;
 	justify-content: start;
-	padding-left: 10vw;
+	padding-left: 5vw;
 }
 
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div {
