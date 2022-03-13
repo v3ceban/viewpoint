@@ -8588,7 +8588,6 @@ li.vc_active a {
 
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div {
 	display: flex;
-	max-width: 600px;
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 20px;
