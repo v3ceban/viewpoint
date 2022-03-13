@@ -8591,6 +8591,7 @@ li.vc_active a {
 	align-items: center;
 	margin-bottom: 20px;
 	background-color: white;
+	overflow: hidden;
 }
 
 #shop-landing-page > .vc_column-inner > .wpb_wrapper a:hover img {
