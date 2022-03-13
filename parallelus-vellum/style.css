@@ -8591,6 +8591,9 @@ li.vc_active a {
 	align-items: center;
 	margin-bottom: 20px;
 	background-color: white;
+}
+
+#shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(2) > div > div > div > div {
 	overflow: hidden;
 }
 
@@ -8624,6 +8627,10 @@ li.vc_active a {
 #shop-landing-page .wpb_text_column h2,
 #shop-landing-page .wpb_text_column h2 a {
 	color: #555555 !important;
+}
+
+#shop-landing-page .wpb_text_column h2 a:hover {
+	color: #f8c850 !important;
 }
 
 #shop-landing-page .wpb_text_column {
