@@ -8612,6 +8612,10 @@ li.vc_active a {
 	margin-bottom: 0 !important;
 }
 
+#shop-landing-page .wpb_text_column h2 {
+	font-weight: 400;
+}
+
 #shop-landing-page .wpb_text_column h2,
 #shop-landing-page .wpb_text_column h2 a {
 	color: #555555 !important;
