@@ -8598,12 +8598,6 @@ li.vc_active a {
 	order: 2;
 }
 
-#shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(2) > div > div > div > div:nth-of-type(2),
-#shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(4) > div > div > div > div:nth-of-type(2) {
-	padding-left: 0;
-	padding-right: 20px;
-}
-
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) h2,
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(4) > div > div > div > div:nth-of-type(2) h2 {
 	text-align: right;
@@ -8623,5 +8617,5 @@ li.vc_active a {
 
 #shop-landing-page .wpb_text_column {
 	min-width: 20vw;
-	padding-left: 20px;
+	padding: 0 20px 0 20px;
 }
