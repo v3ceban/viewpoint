@@ -8593,6 +8593,11 @@ li.vc_active a {
 	background-color: white;
 }
 
+#shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(1) > div > div > div > div:nth-of-type(2),
+#shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) {
+	max-width: 150px;
+}
+
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(2) > div > div > div > div:nth-of-type(1),
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(4) > div > div > div > div:nth-of-type(1) {
 	order: 2;
@@ -8615,8 +8620,4 @@ li.vc_active a {
 #shop-landing-page .wpb_text_column {
 	flex-basis: 60%;
 	padding: 0 20px 0 20px;
-}
-
-#shop-landing-page .wpb_text_column > div {
-	max-width: 150px;
 }
