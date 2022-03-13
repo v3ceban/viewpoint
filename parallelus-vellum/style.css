@@ -8601,7 +8601,7 @@ li.vc_active a {
 }
 
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div > div.wpb_content_element {
-	margin-bottom: 0 !important;
+	margin-bottom: 0;
 }
 
 #shop-landing-page .wpb_text_column h2 {
@@ -8616,4 +8616,8 @@ li.vc_active a {
 
 #shop-landing-page .wpb_text_column {
 	padding: 20px;
+}
+
+#shop-landing-page img {
+	height: 100%;
 }
