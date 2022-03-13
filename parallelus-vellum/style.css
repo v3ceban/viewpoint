@@ -8626,3 +8626,17 @@ li.vc_active a {
 #shop-landing-page img {
 	height: 100%;
 }
+
+@media screen and (min-width: 770px) {
+	#shop-landing-page > .vc_column-inner > .wpb_wrapper {
+		padding-left: 100px;
+	}
+
+	#shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(2) {
+		transform: translateX(100px);
+	}
+
+	#shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(3) {
+		transform: translateX(-100px);
+	}
+}
