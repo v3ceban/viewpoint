@@ -8597,6 +8597,7 @@ li.vc_active a {
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(2) > div > div > div > div:nth-of-type(1),
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(4) > div > div > div > div:nth-of-type(1) {
 	order: 2;
+	justify-self: end;
 }
 
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div > div.wpb_content_element {
@@ -8605,6 +8606,7 @@ li.vc_active a {
 
 #shop-landing-page .wpb_text_column h2 {
 	font-weight: 400;
+	max-width: 150px;
 }
 
 #shop-landing-page .wpb_text_column h2,
