@@ -8593,7 +8593,7 @@ li.vc_active a {
 	background-color: white;
 }
 
-#shop-landing-page > .vc_column-inner > .wpb_wrapper > a:hover > img {
+#shop-landing-page > .vc_column-inner > .wpb_wrapper a:hover img {
 	opacity: 80%;
 	transform: scale(1.1);
 	transition: all 0.2s ease;
