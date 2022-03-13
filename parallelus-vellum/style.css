@@ -8582,8 +8582,14 @@ li.vc_active a {
 /*Shop*/
 #shop-landing-page > .vc_column-inner > .wpb_wrapper {
 	display: grid;
+	justify-content: center;
 }
 
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div {
 	display: flex;
+	align-items: center;
+}
+
+#shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div > div.wpb_text_column {
+	max-width: 150px;
 }
