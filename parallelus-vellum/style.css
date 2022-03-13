@@ -8578,3 +8578,12 @@ li.vc_active a {
 .wpfc-calendar-wrapper .ui-state-highlight {
 	border: none !important;
 }
+
+/*Shop*/
+#shop-landing-page > .vc_column-inner > .wpb_wrapper {
+	display: grid;
+}
+
+#shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div {
+	display: flex;
+}
