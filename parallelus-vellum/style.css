@@ -8616,6 +8616,6 @@ li.vc_active a {
 }
 
 #shop-landing-page .wpb_text_column {
-	min-width: 20vw;
+	flex-basis: 60%;
 	padding: 0 20px 0 20px;
 }
