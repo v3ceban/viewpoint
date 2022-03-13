@@ -8582,6 +8582,7 @@ li.vc_active a {
 /*Shop*/
 #shop-landing-page > .vc_column-inner > .wpb_wrapper {
 	display: grid;
+	transform: translateX(75px);
 }
 
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div {
@@ -8590,6 +8591,7 @@ li.vc_active a {
 	justify-content: space-between;
 	margin-bottom: 20px;
 	background-color: white;
+	max-width: 650px;
 }
 
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) h2,
