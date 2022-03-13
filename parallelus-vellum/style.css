@@ -8592,6 +8592,11 @@ li.vc_active a {
 	background-color: white;
 }
 
+#shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div:nth-of-type(2):first-child,
+#shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div:nth-of-type(4):first-child {
+	order: 2;
+}
+
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div > div.wpb_content_element {
 	margin-bottom: 0 !important;
 }
