@@ -8587,9 +8587,9 @@ li.vc_active a {
 }
 
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	align-items: center;
-	justify-content: space-between;
 	margin-bottom: 20px;
 	background-color: white;
 }
