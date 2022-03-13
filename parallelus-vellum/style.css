@@ -8600,6 +8600,11 @@ li.vc_active a {
 	max-width: 150px;
 }
 
+#shop-landing-page .wpb_text_column h2,
+#shop-landing-page .wpb_text_column h2 a {
+	color: #555555 !important;
+}
+
 #shop-landing-page .wpb_text_column {
 	min-width: 20vw;
 	padding-left: 20px;
