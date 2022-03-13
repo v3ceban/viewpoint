@@ -8607,9 +8607,6 @@ li.vc_active a {
 	margin-bottom: 0 !important;
 }
 
-#shop-landing-page .wpb_text_column h2 {
-}
-
 #shop-landing-page .wpb_text_column h2,
 #shop-landing-page .wpb_text_column h2 a {
 	color: #555555 !important;
@@ -8618,4 +8615,8 @@ li.vc_active a {
 #shop-landing-page .wpb_text_column {
 	flex-basis: 60%;
 	padding: 0 20px 0 20px;
+}
+
+#shop-landing-page .wpb_text_column > div {
+	max-width: 150px;
 }
