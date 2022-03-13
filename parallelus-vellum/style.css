@@ -8588,6 +8588,11 @@ li.vc_active a {
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div {
 	display: flex;
 	align-items: center;
+	margin-bottom: 20px;
+}
+
+#shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div > div.wpb_content_element {
+	margin-bottom: 0 !important;
 }
 
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div > div.wpb_text_column {
