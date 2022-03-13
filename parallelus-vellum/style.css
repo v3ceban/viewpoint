@@ -8603,6 +8603,12 @@ li.vc_active a {
 	padding-right: 20px;
 }
 
+#shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) h2,
+#shop-landing-page > .vc_column-inner > .wpb_wrapper > div:nth-of-type(4) > div > div > div > div:nth-of-type(2) h2 {
+	text-align: right;
+	max-width: 100%;
+}
+
 #shop-landing-page > .vc_column-inner > .wpb_wrapper > div > div > div > div > div.wpb_content_element {
 	margin-bottom: 0 !important;
 }
