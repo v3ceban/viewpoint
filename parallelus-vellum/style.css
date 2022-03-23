@@ -8651,3 +8651,11 @@ li.vc_active a {
 		transform: translateX(-75px);
 	}
 }
+
+/*Shop buttons*/
+#widget-buttons > div {
+	display: grid;
+	justify-items: end;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	max-width: 300px;
+}
