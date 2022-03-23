@@ -8657,5 +8657,5 @@ li.vc_active a {
 	display: grid;
 	justify-items: end;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	max-width: 300px;
+	max-width: 400px;
 }
