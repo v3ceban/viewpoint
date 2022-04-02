@@ -8662,6 +8662,7 @@ li.vc_active a {
 	background-color: white;
 }
 
-#widget-buttons .widget {
+#widget-buttons .widget,
+#widget-buttons .wp-block-image {
 	margin-bottom: 0;
 }
