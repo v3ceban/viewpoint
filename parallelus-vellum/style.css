@@ -8704,3 +8704,8 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 .woocommerce-pagination ul li {
 	border: none !important;
 }
+
+/*Woocommerce cart*/
+.woocommerce .woocommerce-cart-form table {
+	background: white;
+}
