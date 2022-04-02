@@ -8662,4 +8662,6 @@ li.vc_active a {
 	background-color: white;
 }
 
-#widget-buttons .widget_block widget_media_image;
+#widget-buttons .widget {
+	margin-bottom: 0;
+}
