@@ -8730,3 +8730,18 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 .woocommerce #coupon_code::placeholder {
 	color: #999 !important;
 }
+
+/*Checkout*/
+.order_review_heading {
+	margin-top: 10px;
+	padding: 0;
+}
+
+#order_review .woocommerce-checkout-review-order-table {
+	background: white;
+	border-radius: 0;
+}
+
+#payment {
+	background: none;
+}
