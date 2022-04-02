@@ -8676,7 +8676,7 @@ ul.products.columns-4 .add_to_cart_button {
 
 ul.products.columns-4 .woocommerce-loop-product__title {
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.2em !important;
 }
 
 ul.products.columns-4 span.price {
@@ -8685,5 +8685,5 @@ ul.products.columns-4 span.price {
 	text-align: center;
 	color: #ddd !important;
 	font-weight: normal !important;
-	font-size: 1.2em;
+	font-size: 1.2em !important;
 }
