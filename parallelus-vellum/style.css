@@ -8699,3 +8699,7 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 .grid-column-1.span9 {
 	width: 100%;
 }
+
+.woocommerce-pagination {
+	border: none !important;
+}
