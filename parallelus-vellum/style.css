@@ -8700,6 +8700,7 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 	width: 100%;
 }
 
-.woocommerce-pagination {
+.woocommerce-pagination ul,
+.woocommerce-pagination ul li {
 	border: none !important;
 }
