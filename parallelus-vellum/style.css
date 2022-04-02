@@ -8673,3 +8673,15 @@ li.vc_active a {
 ul.products.columns-4 .add_to_cart_button {
 	display: none;
 }
+
+ul.products.columns-4 .woocommerce-loop-product__title {
+	text-align: center;
+}
+
+ul.products.columns-4 span.price {
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #ddd;
+	font-weight: normal;
+}
