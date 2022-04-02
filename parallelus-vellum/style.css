@@ -8682,6 +8682,6 @@ ul.products.columns-4 span.price {
 	display: block;
 	width: 100%;
 	text-align: center;
-	color: #ddd;
+	color: #ddd !important;
 	font-weight: normal;
 }
