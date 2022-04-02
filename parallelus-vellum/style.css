@@ -8662,6 +8662,7 @@ li.vc_active a {
 	background-color: white;
 	padding: 10px;
 	align-items: center;
+	transform: scale(0.75) translateX(54px);
 }
 
 #widget-buttons .widget,
@@ -8724,4 +8725,8 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 
 .woocommerce .wc-proceed-to-checkout > a:hover {
 	background-color: #992535 !important;
+}
+
+.woocommerce #coupon_code::placeholder {
+	color: #999 !important;
 }
