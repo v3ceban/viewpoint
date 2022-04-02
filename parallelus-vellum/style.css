@@ -8712,6 +8712,10 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 	border-radius: 0;
 }
 
+.woocommerce .cart_totals h2 {
+	margin-top: 10px;
+}
+
 .woocommerce .wc-proceed-to-checkout > a {
 	background-color: #811826 !important;
 	color: white !important;
