@@ -8743,5 +8743,5 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 }
 
 #payment {
-	background: none;
+	background: none !important;
 }
