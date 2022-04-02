@@ -8696,6 +8696,6 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 	border: none !important;
 }
 
-.woocommerce-page ul.products li.product {
+.grid-column-1.span9 {
 	width: 30%;
 }
