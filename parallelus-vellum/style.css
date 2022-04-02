@@ -8693,6 +8693,7 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 	min-width: 10vw;
 	object-fit: cover;
 	object-position: center center;
+	border: none !important;
 }
 
 .woocommerce-page ul.products li.product {
