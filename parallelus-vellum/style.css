@@ -8683,5 +8683,5 @@ ul.products.columns-4 span.price {
 	width: 100%;
 	text-align: center;
 	color: #ddd !important;
-	font-weight: normal;
+	font-weight: normal !important;
 }
