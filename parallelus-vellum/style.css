@@ -8687,3 +8687,9 @@ ul.products.columns-4 span.price {
 	font-weight: normal !important;
 	font-size: 1.2em !important;
 }
+
+ul.products.columns-4 .attachment-woocommerce_thumbnail {
+	min-height: 20em;
+	object-fit: cover;
+	object-position: center center;
+}
