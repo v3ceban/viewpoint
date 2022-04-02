@@ -8668,3 +8668,8 @@ li.vc_active a {
 #widget-buttons .wp-block-image {
 	margin-bottom: 0;
 }
+
+/*Woocommerce Items*/
+ul.products + .columns-4 {
+	background: red;
+}
