@@ -8706,6 +8706,18 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 }
 
 /*Woocommerce cart*/
-.woocommerce .woocommerce-cart-form table {
+.woocommerce .woocommerce-cart-form table,
+.woocommerce .cart_totals table {
 	background: white;
+	border-radius: 0;
+}
+
+.woocommerce .wc-proceed-to-checkout > a {
+	background-color: #811826;
+	color: white;
+	border: none;
+}
+
+.woocommerce .wc-proceed-to-checkout > a:hover {
+	background-color: #992535;
 }
