@@ -8656,6 +8656,10 @@ li.vc_active a {
 #widget-buttons > div {
 	display: grid;
 	justify-items: end;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	max-width: 400px;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: 320px;
+	margin: 0 0 0 auto;
+	background-color: white;
 }
+
+#widget-buttons .widget_block widget_media_image;
