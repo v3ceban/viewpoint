@@ -8779,7 +8779,7 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 	min-width: 100%;
 }
 
-.portfolio-members .vc_tta-panel-heading {
+.portfolio-members .vc_tta.vc_tta-spacing-1 .vc_tta-panel.vc_active .vc_tta-panel-heading, .vc_tta.vc_tta-spacing-1 .vc_tta-panel .vc_tta-panel-heading {
 	border: none !important;
 	background: none !important;
 }
