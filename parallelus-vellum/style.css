@@ -8752,7 +8752,7 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 	transform: translateX(-15px);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 	.portfolio-members {
 		transform: translateX(0);
 	}
