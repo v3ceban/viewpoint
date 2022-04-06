@@ -8745,3 +8745,12 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 #payment {
 	background: none !important;
 }
+
+/*Portfolio Members*/
+.portfolio-members .portfolio-members {
+	border: none !important;
+}
+
+.portfolio-members .vc_column-inner {
+	padding-right: 0 !important;
+}
