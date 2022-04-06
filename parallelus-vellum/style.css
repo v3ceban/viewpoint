@@ -8765,3 +8765,15 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 .portfolio-members div.wpb_content_element {
 	margin-bottom: 0;
 }
+
+.portfolio-members .vc_btn3-block.vc_btn3-size-md {
+	background: rgba(41, 41, 41, 1) !important;
+	color: white !important;
+	font-weight: 600;
+	border: none !important;
+}
+
+.portfolio-members .wpb_single_image .vc_single_image-wrapper,
+.portfolio-members .wpb_single_image .vc_single_image-wrapper img {
+	min-width: 100%;
+}
