@@ -8747,8 +8747,15 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 }
 
 /*Portfolio Members*/
-.portfolio-members .portfolio-members {
+.portfolio-members {
 	border: none !important;
+	transform: translateX(-15px);
+}
+
+@media screen and (min-width: 768px) {
+	.portfolio-members {
+		transform: translateX(0);
+	}
 }
 
 .portfolio-members .vc_column-inner {
