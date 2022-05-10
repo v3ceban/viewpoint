@@ -7957,20 +7957,20 @@ body,
 	max-width: 768px;
 }
 
-.home-page-posts .post a:nth-of-type(1) {
+.home-page-posts .post>a {
 	display: flex;
 	overflow: hidden;
 	max-height: 400px;
 	align-items: center;
 }
 
-.home-page-posts .post a:nth-of-type(1) > img {
+.home-page-posts .post>a > img {
 	transition: all 0.1s ease;
 	width: 100%;
 }
 
-.home-page-posts .post a:nth-of-type(1):hover > img,
-.home-page-posts .post a:nth-of-type(1):focus > img {
+.home-page-posts .post>a:hover > img,
+.home-page-posts .post>a:focus > img {
 	opacity: 80%;
 	transform: scale(1.1);
 	transition: all 0.2s ease;
