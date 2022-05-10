@@ -46,6 +46,14 @@ get_header(); ?>
                                         the_field('2nd_reception_time_to');
                                     endif; ?></p>
                             <?php endif; ?>
+                            <?php if (get_field('artist_reception_date')) : ?>
+                                <p class="dates">Artist Reception: <?php the_field('artist_reception_date'); ?><?php if (get_field('artist_reception_time_from')) : echo (', ');
+                                                                                                                    the_field('artist_reception_time_from');
+                                                                                                                endif; ?>
+                                    <?php if (get_field('artist_reception_time_to') and get_field('artist_reception_time_from')) : echo ('to ');
+                                        the_field('artist_reception_time_to');
+                                    endif; ?></p>
+                            <?php endif; ?>
                             <div class="post-footer">
                                 <?php the_category(' ') ?>
                                 <a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More <i class="fas fa-chevron-right"></i></a>
