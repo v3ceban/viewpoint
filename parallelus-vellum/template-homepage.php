@@ -46,7 +46,6 @@ get_header(); ?>
                                         the_field('2nd_reception_time_to');
                                     endif; ?></p>
                             <?php endif; ?>
-                            <p><?php the_excerpt(); ?></p>
                             <div class="post-footer">
                                 <?php the_category(' ') ?>
                                 <a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More <i class="fas fa-chevron-right"></i></a>
