@@ -8134,6 +8134,17 @@ div.vc_gitem-animated-block:focus > .vc_gitem-zone {
 	transition: all 0.2s ease;
 }
 
+.home-page-workshops {
+	grid-column: 1/3;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (min-width: 1280px) {
+	#content.home-page-wrapper .home-page-workshops div.post:nth-of-type(3) {
+		grid-row: 2/3;
+	}
+}
+
 /*Category pages, Workshops and Exhibits*/
 
 h1.archive-title {

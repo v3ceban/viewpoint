@@ -102,7 +102,7 @@ get_header(); ?>
         <?php /* Set cat= to the category number to filter posts by category, set posts_per_page=-1 to display all or x to display x*/ ?>
         <?php query_posts('cat=4,-170&posts_per_page=3'); ?>
         <?php /* Loop for posts */ ?>
-        <section class="home-page-posts">
+        <section class="home-page-posts home-page-workshops">
             <h2>CURRENT WORKSHOPS</h2>
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                     <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
