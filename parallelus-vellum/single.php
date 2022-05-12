@@ -39,7 +39,7 @@ get_header(); ?>
 						<div class="biography">
 							<h3>Bio</h3>
 							<p><?php $categories = get_the_category();
-								if (($categories) == "Call for Entries") {
+								if (($categories) == 3) {
 									echo esc_html($categories[0]->name);
 								} ?></p>
 							<?php if (get_field('photo')) : ?>
