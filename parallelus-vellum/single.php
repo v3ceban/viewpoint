@@ -31,7 +31,6 @@ get_header(); ?>
 						<?php get_template_part('templates/post', get_post_format()); ?>
 					</div>
 					<!--Post Content-->
-
 					<aside id="singleAside">
 						<?php if (get_field('name')) : ?>
 							<h3><?php the_field('name'); ?></h3>
@@ -39,6 +38,7 @@ get_header(); ?>
 						<?php endif; ?>
 						<div class="biography">
 							<h3>Bio</h3>
+							<p><?php get_the_category() ?></p>
 							<?php if (get_field('photo')) : ?>
 								<img src="<?php the_field('photo'); ?>" alt="<?php the_field('name'); ?> bio" loading="lazy" class="alignleft bioImage">
 							<?php endif; ?>
