@@ -39,8 +39,8 @@ get_header(); ?>
 						<div class="biography">
 							<h3>Bio</h3>
 							<p><?php $categories = get_the_category();
-								if (($categories[0]->id) == 3) {
-									echo esc_html($categories[0]->id);
+								if (($categories[0]->name) == "Call for Entries") {
+									echo esc_html($categories[0]->name);
 								} ?></p>
 							<?php if (get_field('photo')) : ?>
 								<img src="<?php the_field('photo'); ?>" alt="<?php the_field('name'); ?> bio" loading="lazy" class="alignleft bioImage">
