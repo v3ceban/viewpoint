@@ -338,12 +338,12 @@ add_filter('excerpt_length', 'tn_custom_excerpt_length', 999);
 function change_category_order($query)
 {
 	// Sort all posts from category with id=4 (Workshops) by date asc order
-	if ($query->is_category('4') && $query->is_main_query()) {
+	if ($query->is_category('4')) {
 		$query->set('orderby', 'date');
 		$query->set('order', 'ASC');
 	}
 	// Sort all posts from category with id=28 (Exhibits) by date asc order
-	if ($query->is_category('28') && $query->is_main_query()) {
+	if ($query->is_category('28')) {
 		$query->set('orderby', 'date');
 		$query->set('order', 'ASC');
 	}
