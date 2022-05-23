@@ -7,7 +7,7 @@
 				</div><!-- .main-content -->
 				</div><!-- #Middle -->
 				<section id="newsletter-CTA">
-					<h2>Be In the Know</h2>
+					<h2>Be In the Know: <span>NEWSLETTER SIGN-UP</span></h2>
 				</section>
 				<section id="sponsors">
 					<?php if (!dynamic_sidebar('sponsors-widget-area')) : ?>
