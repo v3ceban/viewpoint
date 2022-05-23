@@ -6,6 +6,7 @@
 
 				</div><!-- .main-content -->
 				</div><!-- #Middle -->
+				<h2>123</h2>
 				<section id="sponsors">
 					<h2>123</h2>
 					<?php if (!dynamic_sidebar('sponsors-widget-area')) : ?>
