@@ -12,9 +12,9 @@
 						<h3>Add an empty widget in this widget area to hide this</h3>
 					<?php endif; ?>
 				</section>
-				<section id="sign-up-newsletter">
+				<div id="sign-up-newsletter">
 					<h2>Be In the Know: <span>NEWSLETTER SIGN-UP</span></h2>
-				</section>
+				</div>
 				<footer id="Bottom" class="site">
 					<section class="footer-widget-area">
 						<?php if (!dynamic_sidebar('first-footer-area')) : ?>
