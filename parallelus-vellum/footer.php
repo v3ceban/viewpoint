@@ -6,7 +6,7 @@
 
 				</div><!-- .main-content -->
 				</div><!-- #Middle -->
-				<div>
+				<div id="newsletter-CTA">
 					<h2>123</h2>
 				</div>
 				<section id="sponsors">
