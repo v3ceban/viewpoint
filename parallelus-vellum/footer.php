@@ -6,6 +6,9 @@
 
 				</div><!-- .main-content -->
 				</div><!-- #Middle -->
+				<section id="sign-up-newsletter">
+					<h2>Be In the Know: <span>NEWSLETTER SIGN-UP</span></h2>
+				</section>
 				<section id="sponsors">
 					<?php if (!dynamic_sidebar('sponsors-widget-area')) : ?>
 						<?php /* Footer content if widgets are not being used */ ?>
@@ -31,7 +34,7 @@
 							<h3>Add an empty widget in this widget area to hide this</h3>
 						<?php endif; ?>
 					</section>
-					<p id="SMAC">Viewpoint Photographic Art Center is the proud reciepent of a SMAC Cultural Arts Award grant.</p>
+					<p id="SMAC">Viewpoint Photographic Art Center is the proud recipient of a SMAC Cultural Arts Award grant</p>
 					<section class="footer-widget-area">
 						<?php if (!dynamic_sidebar('fourth-footer-area')) : ?>
 							<?php /* Footer content if widgets are not being used */ ?>
