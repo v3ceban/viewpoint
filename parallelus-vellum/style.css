@@ -7968,6 +7968,12 @@ body,
 	align-items: center;
 }
 
+@media screen and (min-width: 1280px) {
+	.home-page-posts .post>a {
+		height: auto;
+	}
+}
+
 .home-page-posts .post>a > img {
 	transition: all 0.1s ease;
 	height: 100%;
