@@ -6,7 +6,7 @@
 
 				</div><!-- .main-content -->
 				</div><!-- #Middle -->
-				<div id="newsletter-sign-up">
+				<div>
 					<h2>123</h2>
 				</div>
 				<section id="sponsors">
