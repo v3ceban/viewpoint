@@ -334,17 +334,23 @@ function tn_custom_excerpt_length($length)
 }
 add_filter('excerpt_length', 'tn_custom_excerpt_length', 999);
 
-//function to modify default WordPress query
-function wpb_custom_query($query)
+//Reverse default date descending order for specific categories
+function change_category_order($query)
 {
-	// Set parameters to modify the query
-	$query->set('orderby', 'date');
-	$query->set('order', 'ASC');
+	// Sort all posts from category with id=4 (Workshops) by date asc order
+	if ($query->is_category('4') && $query->is_main_query()) {
+		$query->set('orderby', 'date');
+		$query->set('order', 'ASC');
+	}
+	// Sort all posts from category with id=28 (Exhibits) by date asc order
+	if ($query->is_category('28') && $query->is_main_query()) {
+		$query->set('orderby', 'date');
+		$query->set('order', 'ASC');
+	}
 }
 
 // Hook our custom query function to the pre_get_posts 
-add_action('pre_get_posts', 'wpb_custom_query');
-
+add_action('pre_get_posts', 'change_category_order');
 
 function setup_future_hook()
 {
