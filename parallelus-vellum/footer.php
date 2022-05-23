@@ -7,7 +7,7 @@
 				</div><!-- .main-content -->
 				</div><!-- #Middle -->
 				<div id="newsletter-sign-up">
-					<h2>Be In the Know</h2>
+					<h2>123</h2>
 				</div>
 				<section id="sponsors">
 					<?php if (!dynamic_sidebar('sponsors-widget-area')) : ?>
