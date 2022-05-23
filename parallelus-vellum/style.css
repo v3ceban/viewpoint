@@ -8463,7 +8463,7 @@ section.footer-widget-area p {
 }
 
 #newsletter-CTA h2 {
-	-webkit-text-stroke: none !important;
+	-webkit-text-stroke: 0 !important;
 }
 
 #newsletter-CTA h2 span {
