@@ -8248,6 +8248,7 @@ h1.archive-title {
 	color: inherit;
 	font-weight: 400;
 	margin-bottom: 15px;
+	-webkit-text-stroke: 0 !important;
 }
 
 .cat-widget-area ul {
