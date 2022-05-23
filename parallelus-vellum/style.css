@@ -8462,6 +8462,10 @@ section.footer-widget-area p {
 	padding: 28px;
 }
 
+#newsletter-CTA h2 {
+	-webkit-text-stroke: none !important;
+}
+
 #newsletter-CTA h2 span {
 	color: #f8c850;
 }
