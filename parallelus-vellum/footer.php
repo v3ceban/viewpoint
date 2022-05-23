@@ -6,11 +6,10 @@
 
 				</div><!-- .main-content -->
 				</div><!-- #Middle -->
-				<div id="news-letter-signup">
-					<h2>123</h2>
+				<div id="newsletter-sign-up">
+					<h2>Be In the Know: <span>NEWSLETTER SIGN-UP</span></h2>
 				</div>
 				<section id="sponsors">
-					<h2>123</h2>
 					<?php if (!dynamic_sidebar('sponsors-widget-area')) : ?>
 						<?php /* Footer content if widgets are not being used */ ?>
 						<h3>Add an empty widget in this widget area to hide this</h3>
