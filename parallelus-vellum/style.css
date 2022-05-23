@@ -7948,6 +7948,10 @@ body,
 	color: #666;
 }
 
+.wp-caption .wp-caption-text {
+	color: #fff;
+}
+
 /*Homepage*/
 
 .home-page-posts .post {
