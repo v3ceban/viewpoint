@@ -1,7 +1,7 @@
 <?php global $wp_query;
 /**
  * @package WordPress
- * Template Name: Exhibits Page
+ * Template Name: Template: Exhibits Page
  */
 
 get_header(); ?>

@@ -1,7 +1,7 @@
 <?php global $wp_query;
 /**
  * @package WordPress
- * Template Name: Workshops Page
+ * Template Name: Template: Workshops Page
  */
 
 get_header(); ?>
