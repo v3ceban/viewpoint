@@ -12,10 +12,10 @@ get_header(); ?>
         <?php /* if intended to use on a static page set to 'page' instead. */ ?>
         <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
         <?php /* Set cat= to the category number to filter posts by category, set posts_per_page=-1 to display all or x to display x, set paged to fix pagination*/ ?>
-        <?php query_posts('cat=28&posts_per_page=10&paged=' . $paged); ?>
+        <?php query_posts('cat=3&posts_per_page=10&paged=' . $paged); ?>
 
         <header class="cat-header">
-            <h1 class="archive-title">Exhibits</h1>
+            <h1 class="archive-title">Call for Entries</h1>
             <img src="https://www.viewpointphotoartcenter.org/wp-content/uploads/2022/02/exhibits.jpg" alt="Exhibits Hero-image">
             <p>Portfolio Member Photo Credit (l/r): Gary Wagner | ALan Kelper | Tracy Rodgers</p>
         </header>
