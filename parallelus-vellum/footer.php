@@ -7,7 +7,9 @@
 				</div><!-- .main-content -->
 				</div><!-- #Middle -->
 				<section id="newsletter-CTA">
-					<h2>Be In the Know: <span>NEWSLETTER SIGN-UP</span></h2>
+					<a href="#mailmunch-pop-1085323">
+						<h2>Be In the Know: <span>NEWSLETTER SIGN-UP</span></h2>
+					</a>
 				</section>
 				<section id="sponsors">
 					<?php if (!dynamic_sidebar('sponsors-widget-area')) : ?>
