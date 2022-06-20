@@ -8831,3 +8831,13 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 	border: none !important;
 	background: none !important;
 }
+
+/* Main Nav */
+#MastheadSidebar-2 #block-63 div.wp-block-search__inside-wrapper  {
+	padding: 0;
+	border: none;
+}
+
+#MastheadSidebar-2 #block-32, #MastheadSidebar-2 #block-33, #MastheadSidebar-2 #block-34 {
+	display: none;
+}
