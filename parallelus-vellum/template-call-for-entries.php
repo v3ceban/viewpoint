@@ -16,8 +16,8 @@ get_header(); ?>
 
         <header class="cat-header">
             <h1 class="archive-title">Call for Entries</h1>
-            <img src="https://www.viewpointphotoartcenter.org/wp-content/uploads/2022/02/exhibits.jpg" alt="Exhibits Hero-image">
-            <p>Portfolio Member Photo Credit (l/r): Gary Wagner | ALan Kelper | Tracy Rodgers</p>
+            <img src="https://www.viewpointphotoartcenter.org/wp-content/uploads/2022/06/call-for-entries.jpg" alt="Exhibits Hero-image">
+            <p>Portfolio Member Photo Credit (l/r): James R. Swartzlander | Adrienne Sher | Alan Paschal</p>
         </header>
 
         <?php /* Main Content loop that gets content for the page */ ?>
