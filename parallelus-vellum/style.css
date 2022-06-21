@@ -8842,7 +8842,7 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 	display: none;
 }
 
-#MasterheadSidebar-2 button.wp-block-search__button:hover {
+#MasterheadSidebar-2 .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button:hover {
 	color: #32373c !important;
 	border: none !important;
 	background: #811826 !important;
