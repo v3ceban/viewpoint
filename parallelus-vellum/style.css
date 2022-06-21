@@ -8853,10 +8853,12 @@ section.grid-section-1 div.grid-column-1 div.content-element-1 article.post div.
 	color: #e1e1e1 !important;
 }
 
-section.grid-section-1 div.grid-column-1 div.content-element-1 article.post div.entry-content p.readmore a.btn {
+section.grid-section-1 div.grid-column-1 div.content-element-1 article.post div.entry-content p.readmore a.btn,
+article.no-results form#SearchForm div.searchFormContainer input#searchsubmit {
 	color: #e1e1e1 !important;
 }
 
-section.grid-section-1 div.grid-column-1 div.content-element-1 article.post div.entry-content p.readmore a.btn:hover {
+section.grid-section-1 div.grid-column-1 div.content-element-1 article.post div.entry-content p.readmore a.btn:hover
+article.no-results form#SearchForm div.searchFormContainer input#searchsubmit {
 	border-color: inherit !important;
 }
