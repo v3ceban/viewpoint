@@ -8842,7 +8842,7 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 	display: none;
 }
 
-#MasterheadSidebar-2 .wp-block-search__button:hover {
+#MasterheadSidebar-2 button.wp-block-search__button:hover {
 	color: #32373c !important;
 	border: none !important;
 	background: #811826 !important;
@@ -8860,5 +8860,6 @@ article.no-results form#SearchForm div.searchFormContainer input#searchsubmit {
 
 section.grid-section-1 div.grid-column-1 div.content-element-1 article.post div.entry-content p.readmore a.btn:hover,
 article.no-results form#SearchForm div.searchFormContainer input#searchsubmit:hover {
-	border-color: #666;
+	border-color: #999;
+	background-color: rgba(221, 221, 221, 0.2);
 }
