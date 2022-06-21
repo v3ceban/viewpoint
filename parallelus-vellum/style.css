@@ -8858,7 +8858,7 @@ article.no-results form#SearchForm div.searchFormContainer input#searchsubmit {
 	color: #e1e1e1 !important;
 }
 
-section.grid-section-1 div.grid-column-1 div.content-element-1 article.post div.entry-content p.readmore a.btn:hover
-article.no-results form#SearchForm div.searchFormContainer input#searchsubmit {
-	border-color: inherit !important;
+section.grid-section-1 div.grid-column-1 div.content-element-1 article.post div.entry-content p.readmore a.btn:hover,
+article.no-results form#SearchForm div.searchFormContainer input#searchsubmit:hover {
+	border-color: #666;
 }
