@@ -8847,3 +8847,16 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 	border: none !important;
 	background: #811826 !important;
 }
+
+/* Search Results */
+section.grid-section-1 div.grid-column-1 div.content-element-1 article.post div.header-meta div.post-meta span.categories-meta a {
+	color: #e1e1e1 !important;
+}
+
+section.grid-section-1 div.grid-column-1 div.content-element-1 article.post div.entry-content p.readmore a.btn {
+	color: #e1e1e1 !important;
+}
+
+section.grid-section-1 div.grid-column-1 div.content-element-1 article.post div.entry-content p.readmore a.btn:hover {
+	border-color: inherit !important;
+}
