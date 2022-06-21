@@ -8841,3 +8841,9 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 #MastheadSidebar-2 #block-32, #MastheadSidebar-2 #block-33, #MastheadSidebar-2 #block-34 {
 	display: none;
 }
+
+#MasterheadSidebar-2 .wp-block-search__button:hover {
+	color: #32373c !important;
+	border: none !important;
+	background: #811826 !important;
+}
