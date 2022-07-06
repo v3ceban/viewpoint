@@ -7,7 +7,7 @@
 				</div><!-- .main-content -->
 				</div><!-- #Middle -->
 				<section id="newsletter-CTA">
-					<a href="#mailmunch-pop-1085323">
+					<a href="https://www.viewpointphotoartcenter.org/newsletter-sign-up/">
 						<h2>Be In the Know: <span>NEWSLETTER SIGN-UP</span></h2>
 					</a>
 				</section>
