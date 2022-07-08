@@ -8842,6 +8842,12 @@ div.entry-summary div.product_meta {
 	display: none;
 }
 
+div.entry-summary form.cart button.single_add_to_cart_button {
+	border: 0;
+	background-color: #811826 !important;
+	color: white !important;
+}
+
 /* Main Nav */
 #MastheadSidebar-2 #block-63 div.wp-block-search__inside-wrapper  {
 	padding: 0;
