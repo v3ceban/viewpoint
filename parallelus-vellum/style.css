@@ -8838,7 +8838,7 @@ div.entry-summary p.stock {
 	color: #f2d371 !important;
 }
 
-div.entry-summary div.product-meta {
+div.entry-summary div.product_meta {
 	display: none;
 }
 
