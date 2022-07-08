@@ -8848,7 +8848,8 @@ div.entry-summary form.cart button.single_add_to_cart_button {
 	color: white !important;
 }
 
-table.woocommerce-product-attributes tr.woocommerce-product-attributes-item th.woocommerce-product-attributes-item__label {
+table.woocommerce-product-attributes tr.woocommerce-product-attributes-item th.woocommerce-product-attributes-item__label,
+table.woocommerce-product-attributes tr.woocommerce-product-attributes-item td.woocommerce-product-attributes-item__value {
 	color: white !important;
 }
 
