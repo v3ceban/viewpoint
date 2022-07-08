@@ -8848,6 +8848,10 @@ div.entry-summary form.cart button.single_add_to_cart_button {
 	color: white !important;
 }
 
+table.woocommerce-product-attributes tr.woocommerce-product-attributes-item th.woocommerce-product-attributes-item__label {
+	color: white !important;
+}
+
 /* Main Nav */
 #MastheadSidebar-2 #block-63 div.wp-block-search__inside-wrapper  {
 	padding: 0;
