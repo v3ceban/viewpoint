@@ -8784,6 +8784,10 @@ div.product div.entry-summary div.product_meta span.sku_wrapper {
 	display: none;
 }
 
+div.product div.entry-summary form.cart {
+	display: flex;
+}
+
 div.product div.entry-summary form.cart button.single_add_to_cart_button {
 	border: 0;
 	background-color: #811826 !important;
