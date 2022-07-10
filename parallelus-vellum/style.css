@@ -8909,8 +8909,11 @@ div.product div.woocommerce-tabs div.woocommerce-Tabs-panel--additional_informat
 	height: 100%;
 }
 
-.portfolio-members .vc_tta-panel-body .vc_row .wpb_column .vc_column-inner .wpb_wrapper {
+.portfolio-members .vc_tta-panel-body .vc_row .wpb_column .vc_column-inner .wpb_wrapper,
+.portfolio-members .vc_tta-panel-body .vc_row {
 	display: flex;
+}
+.portfolio-members .vc_tta-panel-body .vc_row .wpb_column .vc_column-inner .wpb_wrapper {
 	flex-direction: column;
 }
 
