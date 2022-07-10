@@ -8775,6 +8775,16 @@ ul.products.columns-4 .attachment-woocommerce_thumbnail {
 
 
 /*Single Items*/
+div.product div.entry-summary {
+	display: flex;
+	flex-direction: column;
+}
+
+div.product div.entry-summary p.stock {
+	order: 3;
+	margin: 20px 0 0 0;
+}
+
 div.product div.entry-summary p.price,
 div.product div.entry-summary p.stock {
 	color: #f2d371 !important;
