@@ -1300,6 +1300,7 @@ textarea,
 input[type="text"],
 input[type="password"],
 input[type="file"],
+input[type="email"],
 .textInput {
 	width: 100%;
 	background-color: #fff;
@@ -8609,6 +8610,19 @@ li.vc_active a {
 
 .vc_tta-color-orange.vc_tta-style-modern .vc_tta-panel.vc_active .vc_tta-panel-title > a {
 	color: #fff !important;
+}
+
+/*Contact Forms*/
+
+.wpcf7-form-control-wrap input {
+	background-color: #333;
+    border-color: #494949;
+    color: #999;
+}
+
+.wpcf7-form input[type="submit"].wpcf7-form-control {
+	background-color: #811826 !important;
+	color: white;
 }
 
 /*Calendar*/
