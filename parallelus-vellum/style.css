@@ -8900,6 +8900,21 @@ div.product div.woocommerce-tabs div.woocommerce-Tabs-panel--additional_informat
 	background: none !important;
 }
 
+.portfolio-members .vc_tta-panel-body .vc_row .wpb_column .vc_column-inner,
+.portfolio-members .vc_tta-panel-body .vc_row .wpb_column .vc_column-inner .wpb_wrapper,
+.portfolio-members .vc_tta-panel-body .vc_row .wpb_column .vc_column-inner .wpb_wrapper .wpb_single_image,
+.portfolio-members .vc_tta-panel-body .vc_row .wpb_column .vc_column-inner .wpb_wrapper .wpb_single_image .vc_figure,
+.portfolio-members .vc_tta-panel-body .vc_row .wpb_column .vc_column-inner .wpb_wrapper .wpb_single_image .vc_figure a,
+.portfolio-members .vc_tta-panel-body .vc_row .wpb_column .vc_column-inner .wpb_wrapper .wpb_single_image .vc_figure a img {
+	height: 100%;
+}
+
+.portfolio-members .vc_tta-panel-body .vc_row .wpb_column .vc_column-inner .wpb_wrapper,
+.portfolio-members .vc_tta-panel-body .vc_row {
+	display: flex;
+	flex-direction: column;
+}
+
 /*Main Nav*/
 #MastheadSidebar-2 #block-63 div.wp-block-search__inside-wrapper  {
 	padding: 0;
