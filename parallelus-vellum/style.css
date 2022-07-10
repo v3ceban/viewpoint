@@ -8625,6 +8625,11 @@ li.vc_active a {
 	color: white;
 }
 
+.wpcf7-response-output {
+	padding: 10px;
+	margin: 0;
+}
+
 /*Calendar*/
 
 .wpfc-calendar-wrapper .ui-widget-content {
