@@ -4401,6 +4401,11 @@ div[class*="portfolio-columns-"] article {
 .search-results p.readmore {
 	margin-top: 24px;
 }
+
+.search-results p.readmore a {
+	color: white;
+}
+
 .search-results #Middle article.type-portfolio,
 .search-results #Middle .posts-grid article {
 	text-align: left;
