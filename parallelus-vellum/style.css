@@ -8659,7 +8659,7 @@ li.vc_active a {
 	margin-top: -36px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
 	#post-43 #widget-buttons {
 		margin: 0px;
 	}
