@@ -8755,6 +8755,21 @@ li.vc_active a {
 	margin-bottom: 0;
 }
 
+#widget-buttons #block-64 p {
+	display: none;
+}
+
+#widget-buttons #block-64 form {
+	width: 215px;
+}
+
+#widget-buttons #block-64 form .searchFormContainer input.searchFormInput {
+	background: white;
+	border-color: black;
+	border-radius: 20px;
+	line-height: 1.75em;
+}
+
 /*Woocommerce Items*/
 ul.products.columns-4 .add_to_cart_button {
 	display: none;
