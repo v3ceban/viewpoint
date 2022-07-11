@@ -8647,6 +8647,18 @@ li.vc_active a {
 }
 
 /*Shop*/
+#post-43 {
+	max-width: 1000px;
+}
+
+#post-43 .page-title {
+	margin: 0;
+}
+
+#post-43 #widget-buttons {
+	margin-top: -36px;
+}
+
 #shop-landing-page > .vc_column-inner > .wpb_wrapper {
 	display: grid;
 	justify-content: start;
