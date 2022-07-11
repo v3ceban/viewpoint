@@ -8973,5 +8973,5 @@ article.no-results form#SearchForm div.searchFormContainer input#searchsubmit:ho
 }
 
 #post-141 .vc_tta-accordion div.vc_tta-panel-heading>h4.vc_tta-panel-title>a {
-	background-color: inherit !;
+	background-color: inherit !important;
 }
