@@ -8951,6 +8951,17 @@ div.product div.woocommerce-tabs div.woocommerce-Tabs-panel--additional_informat
 .portfolio-members .vc_tta-panel-body .vc_row {
 	display: flex;
 }
+
+@media screen and (max-width: 767px) {
+	.portfolio-members .vc_tta-panel-body .vc_row {
+		display: block;
+	}
+
+	.portfolio-members .vc_tta-panel-body .vc_row .wpb_column .vc_column-inner .wpb_wrapper {
+		max-width: 300px;
+		margin: auto;
+	}
+}
 .portfolio-members .vc_tta-panel-body .vc_row .wpb_column .vc_column-inner .wpb_wrapper {
 	flex-direction: column;
 }
